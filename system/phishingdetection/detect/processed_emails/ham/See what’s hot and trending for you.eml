@@ -1,0 +1,722 @@
+Delivered-To: bigmanroby@gmail.com
+Received: by 2002:ab3:7844:0:b0:287:1ee0:ebc0 with SMTP id f4csp5922315ltk;
+        Mon, 20 Jan 2025 16:08:24 -0800 (PST)
+X-Google-Smtp-Source: AGHT+IErNyHXX1q98qk+ngFC1tknCj8Q80bSTYjOQ5sBlqVbtdajLB0hrLRTUCExGuWoMokXrGaj
+X-Received: by 2002:a05:620a:2452:b0:7b6:de3e:1831 with SMTP id af79cd13be357-7be63210357mr2544440685a.9.1737418103689;
+        Mon, 20 Jan 2025 16:08:23 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1737418103; cv=none;
+        d=google.com; s=arc-20240605;
+        b=jzI1oblz8Au3I79C3Tl7OBET/fI0dbAF7tnm+XMDf02T04t9YQuXOK2epSVRDsxWWJ
+         3faWLlP7WvOwQ90509P1gtN7alsY6FAoFBuH2zNhXlUvbWbxrX49jnoQG8uJrRFog36/
+         bGaeOTij1c5lYqpyVr5umKR7N0M/g930B9IgOVL+tEwzZoEBjeTc39v764rKYsbv3xCZ
+         Xo2Rbm06SI8iwMNU70MYKAR1oVUvwyajsBgbWWVdGTmNI+r2jMs755bByOPaT1pPSUIv
+         FiNQPRtzpThjvi1kjMh03VTrImx6/Ih+WU7zUJUho2R+K5V6/fEOg9GMRYNkx68gnoun
+         rsHA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=feedback-id:message-id:reply-to:mime-version:list-unsubscribe-post
+         :list-unsubscribe:date:subject:to:from:dkim-signature:dkim-signature;
+        bh=a3JBDJkGCGszIu1a8+13evdzgBsdKBqW9bYQK86Wqm4=;
+        fh=Tqbj59c3lQMj9swJdc9NCq+tqrWb1pxMxVMJp7sOVVI=;
+        b=RXb1E2E01VVBv2CXLV03kERhMxqNkoo3h5cQNT39lAV6LJTyx99+tp5TjnsvxPT7u/
+         pUJiERzYh8qOwA553gdbZptl4qlGxojGA4+oPVN4YzOZxo315RfNrOpXQHF2gXxlbLXZ
+         zLtnnYBR2pncflNNbjSBgtOfa6Z7M/LZF/oi9x3+0ViL6M+PZHm+VlZOHB1EBOOZhSqv
+         XgHVELorKKqvpl3b4u/lGzCSqEO7j7Bw8/4ifk4NR8yyQE2XPXtbjsssocRei5shtfp1
+         fZmGUXpMEcZ8/MAujcClsRjrceF0AHbrgON59wGIcrXktYiRPBb7hmElXJCkVRv2xYv6
+         ZQpA==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@mail.primark.com header.s=50dkim1 header.b=cceiVNzT;
+       dkim=pass header.i=@s50.y.mc.salesforce.com header.s=fbldkim50 header.b="WNO3TtJ/";
+       spf=pass (google.com: domain of bounce-99_html-286598109-1133478-510005904-32561@bounce.mail.primark.com designates 161.71.68.221 as permitted sender) smtp.mailfrom=bounce-99_HTML-286598109-1133478-510005904-32561@bounce.mail.primark.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=mail.primark.com
+Return-Path: <bounce-99_HTML-286598109-1133478-510005904-32561@bounce.mail.primark.com>
+Received: from mta.mail.primark.com (mta.mail.primark.com. [161.71.68.221])
+        by mx.google.com with ESMTPS id af79cd13be357-7be614bedb1si1096927985a.287.2025.01.20.16.08.22
+        for <bigmanroby@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 20 Jan 2025 16:08:23 -0800 (PST)
+Received-SPF: pass (google.com: domain of bounce-99_html-286598109-1133478-510005904-32561@bounce.mail.primark.com designates 161.71.68.221 as permitted sender) client-ip=161.71.68.221;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.primark.com header.s=50dkim1 header.b=cceiVNzT;
+       dkim=pass header.i=@s50.y.mc.salesforce.com header.s=fbldkim50 header.b="WNO3TtJ/";
+       spf=pass (google.com: domain of bounce-99_html-286598109-1133478-510005904-32561@bounce.mail.primark.com designates 161.71.68.221 as permitted sender) smtp.mailfrom=bounce-99_HTML-286598109-1133478-510005904-32561@bounce.mail.primark.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=mail.primark.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=50dkim1; d=mail.primark.com;
+ h=From:To:Subject:Date:List-Unsubscribe:List-Unsubscribe-Post:MIME-Version:
+ Reply-To:Message-ID:Content-Type; i=no-reply@mail.primark.com;
+ bh=a3JBDJkGCGszIu1a8+13evdzgBsdKBqW9bYQK86Wqm4=;
+ b=cceiVNzTFyNzcKAo+op7vDW6p9oDb1HxRmQCGy6z1TufS2K6b2z2eUUYe/rbzt41NQlaX66zqDWC
+   68j8g3MzN8t+nbG2OamTEz7j8uNfsMB/eHamUCfJhui5yMz3gYbkf2/L16bR6BJ8S9A6c999yKNT
+   1qPvQMnCDTiDpKng7wsuff2DAkB9soPdmyGCWRX+xdnKrLzujR0ZZVq1RZXhkqedaUSrLFBYPuBr
+   YtpmQWLG+7DltkMjGKeKl7cQHDQ3gWqW/8mTFVBKEcrRT36CTwJSQeX5j27KnsQGLsZ14OaMaFkx
+   VmA7O7lfJXlRfIwRrOUkth2q2mQAEn4dnWFPSQ==
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=fbldkim50; d=s50.y.mc.salesforce.com;
+ h=From:To:Subject:Date:List-Unsubscribe:MIME-Version:Reply-To:Message-ID:
+ Content-Type;
+ bh=a3JBDJkGCGszIu1a8+13evdzgBsdKBqW9bYQK86Wqm4=;
+ b=WNO3TtJ/kanyxXcaZdbk/1Rb9lEM0ohT9v+AAdmtmAf0pq62hoahCh6JfERjAPxYYMgYwjCEzQ9t
+   HDm/dL/4aQ+zX9FvscWnlWA1B/ggPJwp4plaPC3FNdfBbverVg6wxxj63a0dk/s/Jovq4gRMDyVw
+   AUACnt1kPzi8hgBt1ExjkNEUJppEVfcql2PD6+1ILWAkfWuhIHYO8LX3EJcynLmtsQdSs0caY4gC
+   DUnsim9THLzWAO+dI32gxQxZM6924c10QvNDFmivu0FfMIq52ZK84jNzE72MCVHX3DeFkZ2uTB2y
+   BUgHPGwa2bsc9NjGHb/R+AcBpku5DocEAte40g==
+Received: by mta.mail.primark.com id hhrine2fmd42 for <bigmanroby@gmail.com>; Tue, 21 Jan 2025 00:08:22 +0000 (envelope-from <bounce-99_HTML-286598109-1133478-510005904-32561@bounce.mail.primark.com>)
+From: "Primark" <no-reply@mail.primark.com>
+To: <bigmanroby@gmail.com>
+Subject: =?UTF-8?B?U2VlIHdoYXTigJlzIGhvdCBhbmQgdHJlbmRpbmcgZm9yIHlvdQ==?=
+Date: Mon, 20 Jan 2025 18:08:22 -0600
+List-Unsubscribe: <https://click.mail.primark.com/subscription_center.aspx?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtaWQiOiI1MTAwMDU5MDQiLCJzIjoiMjg2NTk4MTA5IiwibGlkIjoiOTkiLCJqIjoiMTEzMzQ3OCIsImpiIjoiMzI1NjEiLCJkIjoiNTAwMDEzIn0.P44p3bAZ90ZwbZdTIoSLbTfA0nANsjNmaox4XgEckxg>, <mailto:leave-fd791d791a3c402029-fe1f167873610d75741479-fe9415717667007a7d-fe371171756404787c1474-fefe1772706205@leave.mail.primark.com>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+MIME-Version: 1.0
+Reply-To: "No Reply Primark" <reply-fe9415717667007a7d-99_HTML-286598109-510005904-32561@mail.primark.com>
+X-SFMC-Stack: 50
+x-job: 510005904_1133478
+Message-ID: <e3545be8-9f2d-4391-83f9-b5af5f0ae687@fra3s50mta397.xt.local>
+Feedback-ID: 510005904:1133478:161.71.68.221:sfmktgcld
+Content-Type: multipart/alternative;
+	boundary="j8GN9e8iL38K=_?:"
+
+This is a multi-part message in MIME format.
+
+--j8GN9e8iL38K=_?:
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+Primark   &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj;
+ &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj;
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+https://click.mail.primark.com/?qs=275354220499edcf26291e38d938777bfc959d12d4abfa8b2a6c7601fd99ce1115e5977697d56f4f58e2ce3c69b01262e2e658d3c908f240761cc59fd390b715 
+
+
+ FASHION TRENDS
+
+
+ On-trend seasonal looks
+
+
+ Like to know what&rsquo;s on trend this season, this week, this second? Look no further than our Trending Now features as we deep dive into the latest items, colours and accessories that are making us want to add to our shopping list on the daily.
+
+https://click.mail.primark.com/?qs=275354220499edcf26291e38d938777bfc959d12d4abfa8b2a6c7601fd99ce1115e5977697d56f4f58e2ce3c69b01262e2e658d3c908f240761cc59fd390b715 
+TAKE ME THERE 
+
+
+
+
+
+
+Your curated must-haves
+
+https://click.mail.primark.com/?qs=275354220499edcf878528d37882f5eb803c3818ac5fbf0fec8c001e36c82262877ec795adec967f643bcc75ff2007f4bc50d6ef66932712c9841a0260c47367 
+
+https://click.mail.primark.com/?qs=275354220499edcf5cd7448a71d6152c5d5c30b8ad06cea61b0848d85cb5850bc38fbe78087cb96df4ffa2d5c2ff264efe0b5f704918a39800684c8c839c2caa 
+
+https://click.mail.primark.com/?qs=275354220499edcf4e524578a3623a1ff490879dfe0993df43368ba2de91b7ed9d5d0cd9a48ad1cb37c54d61ec38c38e40bbeb089bc3918168155a2a8c1cb2b8 
+
+https://click.mail.primark.com/?qs=275354220499edcf46fcd96deb27bd26de21d5cf6b01bafd1327f18d11bcb291821fe1d6c115ce517d5f334e5597e055e0daea74870c3987228f546add460dec 
+SEE MORE 
+
+
+
+
+https://click.mail.primark.com/?qs=275354220499edcf8eb223f599ffa455a3a91721760f53fd845ae1b633d79a97232cf6342758040e1b796fe297d041dbee64ebeaca4d923a4c147bda19a74aa0 
+
+
+ STYLING AND OUTFITS
+
+
+ Your personal stylist
+
+
+ Ever wished you had your very own personal stylist? Well now you do! Our Style Clinic gives you the how-to styling advice, from how to wear the latest prints, styling this season&rsquo;s must-have looks, make-up tutorials and more.
+
+https://click.mail.primark.com/?qs=275354220499edcf8eb223f599ffa455a3a91721760f53fd845ae1b633d79a97232cf6342758040e1b796fe297d041dbee64ebeaca4d923a4c147bda19a74aa0 
+DISCOVER NOW 
+
+
+
+https://click.mail.primark.com/?qs=3058aad84a916ea56224d81a8a447240a059abcb03de92dd859c0d64ecaf2f594f60aa675d955c05d233f425263c7d5d1c6ce86378097caf8b27444b84e0c845 
+
+https://click.mail.primark.com/?qs=3058aad84a916ea5a518b5e9e96ead4f714b5ad15de2d7051edc6cb356a1faba6411eb01ed20d3bbb27dc9918225e03ad9da6ce814cbffd31f7437aae3d6b260 
+
+https://click.mail.primark.com/?qs=3058aad84a916ea54c42a46cd8e8e69d77e225e19aa21b2a047cc8b49fd07390bbc1891169d50f1e5c028347772ccd37404c37423fa435a016e801c947a1818f 
+
+https://click.mail.primark.com/?qs=3058aad84a916ea5cab4fcd5e7659596ab79f20fb2c5c12912b3da6d29d315dc9ad461215db00b4040ceb68952a8f82ed6865372277d7ed3375288b89a5ba8d9 
+
+
+ Our pledge to make clothes more sustainable and recyclable
+
+https://click.mail.primark.com/?qs=3058aad84a916ea56224d81a8a447240a059abcb03de92dd859c0d64ecaf2f594f60aa675d955c05d233f425263c7d5d1c6ce86378097caf8b27444b84e0c845 
+
+https://click.mail.primark.com/?qs=3058aad84a916ea5a518b5e9e96ead4f714b5ad15de2d7051edc6cb356a1faba6411eb01ed20d3bbb27dc9918225e03ad9da6ce814cbffd31f7437aae3d6b260 
+
+https://click.mail.primark.com/?qs=3058aad84a916ea54c42a46cd8e8e69d77e225e19aa21b2a047cc8b49fd07390bbc1891169d50f1e5c028347772ccd37404c37423fa435a016e801c947a1818f 
+
+https://click.mail.primark.com/?qs=3058aad84a916ea5cab4fcd5e7659596ab79f20fb2c5c12912b3da6d29d315dc9ad461215db00b4040ceb68952a8f82ed6865372277d7ed3375288b89a5ba8d9 
+Find out more 
+
+
+ See how affordable fashion can be eco-friendly too
+
+https://click.mail.primark.com/?qs=3058aad84a916ea5532f2157287f8faeeed6b7da4c5e7dbc430e096321096734c09bd6dfad554431a0cd3be861ab7b2cbeceb522c3327a96ef810733867c4da9 
+Find out more 
+
+https://click.mail.primark.com/?qs=3058aad84a916ea5532f2157287f8faeeed6b7da4c5e7dbc430e096321096734c09bd6dfad554431a0cd3be861ab7b2cbeceb522c3327a96ef810733867c4da9 
+
+
+ 
+ 
+https://click.mail.primark.com/?qs=3058aad84a916ea5c1aa74b8408d495c1c8bed90a11a15cf589ce9e9665c84b6508022baf167a3532783270784581b15e79692500ddeeee032ce3351f2a0d4ed 
+
+https://click.mail.primark.com/?qs=3058aad84a916ea5abc9d2cf4927d78ffb1fb2dd1afa36ce6373bdd8a7e592c89d64ece1c4df4cdb2584f146d50d7d8983eda7951c950246139b7aee39bdda48 
+
+https://click.mail.primark.com/?qs=3058aad84a916ea559efed50a7bc165cc80673ce7c827b8321f8c06afe63b75a16d79728f11d407c5a331ab2b72aee21639929ebe4bd83f7c5c9856c02e5cf70 
+
+https://click.mail.primark.com/?qs=3058aad84a916ea5ba0404dfe9c87bcf3ad10fb69c513bfab7799d99e135ddffb4a174e8b407409a815f88eeffbef898354fe285ad52f3870a776b545fa40754 
+
+https://click.mail.primark.com/?qs=3058aad84a916ea575dac950b03a1c0f346fa37e8cbab6392f6c68641f01b9ca7a2fb3b181e5b929f647e6fe7cdf141ab8831e2a65d23c94d68e2e713991a3a0 
+
+https://click.mail.primark.com/?qs=3058aad84a916ea56fe3c76b4bb96953ea618f38de895307d8459d2bfe0648f8a76a1f9c8edeba1e681c189739cf94b5f57f9546ab6789a940d209f99133bd79 
+Find a store 
+
+https://view.mail.primark.com/?qs=5a4cb70c0813f2de9d0a6fe6066f690c0289046ff70910f77b496ace46c4fc7b65913d67450a61da5f54da2cbbed68bed4e4baa2cf5b6463a8f0fded73d925ba76e2492fb11682559bfb0d6c4589f125 
+View in browser 
+
+&zwnj; 
+https://click.mail.primark.com/?qs=3058aad84a916ea52e73a985de87aace70f747c4ce69ff627e434aa2e93797a86ca04ed55a02c49b09a262eaf4c88f7b568f555decb2dae9ce37b270f0eb1027 
+Manage your preferences 
+
+https://click.mail.primark.com/?qs=3058aad84a916ea5e862cdca204285759d149ec52a3216348b93a07d2409cbd8ab591033ba71ed183b35bd085387096a3c7a770b037cba1df8a70477abd3bb62 
+Unsubscribe 
+
+We sent you this email because you are signed up to receive personalised communications from us. Please note this inbox is not monitored.
+
+See our 
+https://click.mail.primark.com/?qs=3058aad84a916ea5cf41e26cae7fa8d93c72b124c5c716b202a4efc30b91a0ed38ed150ad962bc8004402e9a2718afcfd461e0416f683d1aeb69b247b647f666 
+Privacy Notice  for more about us and how we use your data.
+
+2025 (c) Primark
+
+ 
+ 
+ 
+ 
+ 
+ 
+                                                           
+
+--j8GN9e8iL38K=_?:
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office"  lang="en" xml:lang="en" >
+<head>
+<!--[if gte mso 9]><xml> <o:OfficeDocumentSettings> <o:AllowPNG/> <o:PixelsPerInch>96</o:PixelsPerInch> </o:OfficeDocumentSettings> </xml><![endif]-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="format-detection" content="telephone=no" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Primark</title>
+<style type="text/css">
+span.MsoHyperlink, span.MsoHyperlinkFollowed {mso-style-priority:99;color:inherit;}
+a {color:inherit; text-decoration:none;} 
+.ReadMsgBody, .ExternalClass {width:100%;}
+.ExternalClass * {line-height:110%;}
+body {width:100%!important; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;margin:0;padding:0;}
+table {border-collapse:collapse!important; mso-table-lspace:0pt;mso-table-rspace:0pt;}
+.gmailfix {display:none;display:none!important;}
+span > a, sup > a, span > a > sup {color:inherit!important;text-decoration:none;}
+.footer span > a {color:#333333!important;}
+[office365] button {display:block!important;margin:0!important;padding:0!important;}
+[office365] div {display: block!important}
+[owa] .m-show img {display:none!important;}
+/* Framework */
+@media only screen and (max-width: 480px) {
+.MainTable {width:100%!important;min-width:320px!important;}
+.main-padding {padding:0px!important;}
+html, body {width:100%!important; min-width:100%!important;}
+[owa] .m-show img {display:block!important;}
+.m-hide, .m-hide * {display:none!important;height:0!important;width:0px!important;visibility:hidden!important;line-height:0px!important;font-size:0px!important;}
+.m-show {display:block!important;max-height:none!important;}
+.float-left {float:left!important;clear:none!important;}
+.float-right {float:right!important;clear:none!important;}
+.half-width {width:48%!important;display:inline-table!important;}
+.block, .drop, .drop tbody, .drop table, .drop tr {float:none!important;width:100%!important;padding:0!important;display:block!important;}
+.center {text-align:center!important;} .align-left {text-align:left!important;} .align-right {text-align:right!important;} .absolute {position:absolute!important;}
+table.block, table.drop, .drop table, .drop tbody {display:table!important;}
+tr.block, tr.drop, .drop tr {display:table-row!important;}
+td.block, td.drop, .drop td {display:table-cell!important;}
+.center > img, img.center, .align-left > img, img.align-left, .align-right > img, img.align-right {display:inline-block!important;}
+.center table.center, .align-right > table, .align-left > table {display:inline-table!important;}
+.background-none {background:transparent!important;}
+.background-image-none {background-image:none!important;}
+.text-size-16px {font-size:16px!important;line-height:24px!important;} 
+.text-size-18px {font-size:18px!important;line-height:27px!important;}
+.text-size-20px {font-size:20px!important;line-height:30px!important;}
+.text-size-22px {font-size:22px!important;line-height:27px!important;}
+.text-size-24px {font-size:24px!important;line-height:30px!important;}
+.text-size-26px {font-size:26px!important;line-height:32px!important;}
+.text-size-28px {font-size:28px!important;line-height:36px!important;}
+.text-size-30px {font-size:30px!important;line-height:38px!important;}
+.text-size-32px {font-size:32px!important;line-height:40px!important;} 
+.width-100 {width:100%!important;height:auto!important;}
+.width-90 {width:90%!important;height:auto!important;}
+.width-80 {width:80%!important;height:auto!important;}
+.width-70 {width:70%!important;height:auto!important;}
+.width-60 {width:60%!important;height:auto!important;}
+.width-50 {width:50%!important;height:auto!important;}
+.width-40 {width:40%!important;height:auto!important;}
+.width-30 {width:30%!important;height:auto!important;}
+.width-20 {width:20%!important;height:auto!important;}
+.width-0 {width:0px!important;height:auto!important;}
+.width-auto {width:auto!important;}
+.height-auto {height:auto!important;}
+.padding-0 {padding:0!important;} 
+.padding-4 {padding:4px!important;}
+.padding-6 {padding:6px!important;}
+.padding-8 {padding:8px!important;} 
+.padding-12 {padding:12px!important;} 
+.padding-16 {padding:16px!important;}
+.padding-20 {padding:20px!important;} 
+.padding-24 {padding:24px!important;} 
+.padding-32 {padding:32px!important;}
+.padding-horz-0 {padding-left:0px!important;padding-right:0px!important;}
+.padding-horz-4 {padding-left:4px!important;padding-right:4px!important;}
+.padding-horz-6 {padding-left:6px!important;padding-right:6px!important;}
+.padding-horz-8 {padding-left:8px!important;padding-right:8px!important;}
+.padding-horz-12 {padding-left:12px!important;padding-right:12px!important;}
+.padding-horz-16 {padding-left:16px!important;padding-right:16px!important;}
+.padding-horz-20 {padding-left:20px!important;padding-right:20px!important;}
+.padding-horz-24 {padding-left:24px!important;padding-right:24px!important;}
+.padding-horz-32 {padding-left:32px!important;padding-right:32px!important;}
+.padding-vert-0 {padding-top:0px!important;padding-bottom:0px!important;}
+.padding-vert-4 {padding-top:4px!important;padding-bottom:4px!important;}
+.padding-vert-6 {padding-top:6px!important;padding-bottom:6px!important;}
+.padding-vert-8 {padding-top:8px!important;padding-bottom:8px!important;}
+.padding-vert-12 {padding-top:12px!important;padding-bottom:12px!important;}
+.padding-vert-16 {padding-top:16px!important;padding-bottom:16px!important;}
+.padding-vert-20 {padding-top:20px!important;padding-bottom:20px!important;}
+.padding-vert-24 {padding-top:24px!important;padding-bottom:24px!important;}
+.padding-vert-32 {padding-top:32px!important;padding-bottom:32px!important;}
+.padding-right-0 {padding-right:0px!important;}
+.padding-right-4 {padding-right:4px!important;} 
+.padding-right-6 {padding-right:6px!important;} 
+.padding-right-8 {padding-right:8px!important;} 
+.padding-right-12 {padding-right:12px!important;}
+.padding-right-16 {padding-right:16px!important;} 
+.padding-right-20 {padding-right:20px!important;}
+.padding-right-24 {padding-right:24px!important;} 
+.padding-right-32 {padding-right:32px!important;}
+.padding-left-0 {padding-left:0px!important;}
+.padding-left-4 {padding-left:4px!important;} 
+.padding-left-6 {padding-left:6px!important;} 
+.padding-left-8 {padding-left:8px!important;} 
+.padding-left-12 {padding-left:12px!important;}
+.padding-left-16 {padding-left:16px!important;} 
+.padding-left-20 {padding-left:20px!important;}
+.padding-left-24 {padding-left:24px!important;} 
+.padding-left-32 {padding-left:32px!important;}
+.padding-top-0 {padding-top:0px!important;} 
+.padding-top-4 {padding-top:4px!important;}
+.padding-top-6 {padding-top:6px!important;}
+.padding-top-8 {padding-top:8px!important;}
+.padding-top-12 {padding-top:12px!important;} 
+.padding-top-16 {padding-top:16px!important;}
+.padding-top-20 {padding-top:20px!important;} 
+.padding-top-24 {padding-top:24px!important;} 
+.padding-top-32 {padding-top:32px!important;}
+.padding-bottom-0 {padding-bottom:0px!important;}
+.padding-bottom-4 {padding-bottom:4px!important;} 
+.padding-bottom-6 {padding-bottom:6px!important;} 
+.padding-bottom-8 {padding-bottom:8px!important;} 
+.padding-bottom-12 {padding-bottom:12px!important;}
+.padding-bottom-16 {padding-bottom:16px!important;} 
+.padding-bottom-20 {padding-bottom:20px!important;}
+.padding-bottom-24 {padding-bottom:24px!important;} 
+.padding-bottom-32 {padding-bottom:32px!important;}
+.border-radius-0 { border-radius:0px!important;}
+.force-100 tr { width:100% !important; display: table!important;}
+.top {display: table-header-group !important; width: 100% !important;}
+  
+/*custom*/
+.width-48 {width:48%!important; height:auto!important;}
+.imgW100 img {width:100%!important;height:auto!important;}
+.navInline, .inline {display:inline-block!important;}
+.border-0{border-width:0px!important;}
+.width-12px {width:12px!important;height:auto!important;}
+.border-radius-topleft {border-radius: 12px 0 0!important;}
+.border-radius-topright {border-radius: 0 12px 0 0!important;}
+.border-radius-bottomright {border-radius: 0 0 12px!important;}
+.border-radius-bottomleft {border-radius: 0 0 0 12px!important;}
+}
+</style>
+<!--[if gte mso 9]> <style type="text/css"> sup {vertical-align:baseline;position:relative;top:-0.4em;font-size:85%;} </style> <![endif]-->
+<!--[if !mso]><!-- -->
+<style type="text/css">
+sup {vertical-align:top;font-size:50%;}
+</style>
+<!--<![endif]-->
+
+</head>
+<body marginheight="0" marginwidth="0" topmargin="0" leftmargin="0" rightmargin="0" style="margin:0;padding:0;" bgcolor="#ffffff"><style type="text/css">
+div.preheader 
+{ display: none !important; } 
+</style>
+<div class="preheader" style="font-size: 1px; display: none !important;">Handpicked styles you'll love.</div>
+<table cellspacing="0" cellpadding="0" width="100%" border="0" class="wrapper" role="presentation">
+  <tr>
+    <td bgcolor="#ffffff" align="center">
+    <!-- start wrapper table inner content --> 
+      
+      
+      <!-- start preheader blank space -->
+      <table width="100%" border="0" cellspacing="0" cellpadding="0" role="presentation">
+        <tr>
+          <td  align="center" valign="top"><table class="MainTable" width="648" border="0" cellspacing="0" cellpadding="0" style="width:648px;" role="presentation">
+              <tr>
+                <td align="center" valign="top" style="font-size:0px;line-height:0px;">&nbsp; <!--[if !mso]><!-- -->
+<div
+ style="display:none;max-height:0px;overflow:hidden;font-size:0;line-height:0;mso-hide:all">&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;
+&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;
+&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;</div><!--<![endif]--></td>
+              </tr>
+              <!--INBOX MIN-WIDTH FIX - DO NOT REMOVE - MAKE SURE THESE SPACERS ADD UP TO THE WIDTH OF YOUR EMAIL-->
+              <tr class="m-hide">
+                <td align="left" valign="top" style="min-width:648px;"><table width="100%" border="0" cellspacing="0" cellpadding="0" role="presentation">
+                    <tr>
+                      <td width="324" align="left" valign="top" style="font-size:0px;line-height:0px;width:324px;"><img src="https://image.mail.primark.com/lib/fe371171756404787c1474/m/4/1457b4d7-94b1-4f19-a7c2-34f036bec31e.png" alt="" width="324" height="1" style="display:block;border:0;" border="0"></td>
+                      <td width="324" align="left" valign="top" style="font-size:0px;line-height:0px;width:324px;"><img src="https://image.mail.primark.com/lib/fe371171756404787c1474/m/4/1457b4d7-94b1-4f19-a7c2-34f036bec31e.png" alt="" width="324" height="1" style="display:block;border:0;" border="0"></td>
+                    </tr>
+                  </table></td>
+              </tr>
+              <!--/INBOX MIN-WIDTH FIX - DO NOT REMOVE - MAKE SURE THESE SPACERS ADD UP TO THE WIDTH OF YOUR EMAIL-->
+            </table></td>
+        </tr>
+      </table>
+      <!-- end preheader blank space -->
+      
+      
+      
+       
+      
+      
+      <!----><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"><br>
+<br>
+<table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"><!-- Hero 1 --><table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+ 
+  <tr>
+   <td align="center" valign="top">
+    <table border="0" cellpadding="0" cellspacing="0" class="MainTable" role="presentation" style="width:648px; margin:0 auto;" width="648">
+     <!-- start img -->
+      <tr>
+       <td align="center" class="imgW100" valign="top">
+        <a  href="https://click.mail.primark.com/?qs=275354220499edcff934e6798a17c0f9d158b20afc7e3e65a770b45f658e17865de3aae5e7be0fdbf50666e98da80d85e438d3515b34040e7384328195412ae3" target="_blank"><img alt="Trends" border="0" class="width-100" height="648" src="https://image.mail.primark.com/lib/fe371171756404787c1474/m/1/979edd9b-b210-4db4-8e10-3ce5b0193ab0.png" style="display:block; border:0;" width="648"></a></td></tr><!-- end img --><tr>
+       <td class="padding-horz-16" style="padding:20px 32px;">
+        <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+         <!-- start editorial line -->
+          <tr>
+           <td align="center" style="padding: 0 0 12px;" valign="top">
+            <p style="font-family: Arial, 'Arial MT Pro', 'Helvetica Neue', Helvetica, 'SF Pro Text', sans-serif; font-size:16px; line-height:24px; color:#000000; mso-line-height-rule:exactly; padding:0; margin:0;">
+             FASHION TRENDS</p></td></tr><!-- end editorial line --><!-- start headline --><tr>
+           <td align="center" valign="top">
+            <h1 class="text-size-28px" style="font-family: Arial, 'Arial MT Pro', 'Helvetica Neue', Helvetica, 'SF Pro Text', sans-serif; font-size:32px; line-height:40px; color:#000000; mso-line-height-rule:exactly; font-weight: bold; padding:0; margin:0;">
+             On-trend seasonal looks</h1></td></tr><!-- end headline --><!-- start copy --><tr>
+           <td align="center" style="padding: 16px 0 20px;" valign="top">
+            <p style="font-family: Arial, 'Arial MT Pro', 'Helvetica Neue', Helvetica, 'SF Pro Text', sans-serif; font-size:16px; line-height:24px; color:#000000; mso-line-height-rule:exactly; padding:0; margin:0;">
+             Like to know what&rsquo;s on trend this season, this week, this second? Look no further than our Trending Now features as we deep dive into the latest items, colours and accessories that are making us want to add to our shopping list on the&nbsp;daily.</p></td></tr><!-- end copy --><!-- start cta --><tr>
+           <td align="center">
+            <table border="0" cellpadding="0" cellspacing="0" role="presentation">
+             
+              <tr>
+               <td align="center" bgcolor="#000000" style="font-family: Arial, 'Arial MT Pro', 'Helvetica Neue', Helvetica, 'SF Pro Text', sans-serif; font-size:16px; line-height:24px; color:#ffffff; mso-line-height-rule:exactly; padding:12px 32px; border-radius: 24px;" valign="middle">
+                <strong><a  aria-label="Read the full article on the latest fashion trends" href="https://click.mail.primark.com/?qs=275354220499edcff934e6798a17c0f9d158b20afc7e3e65a770b45f658e17865de3aae5e7be0fdbf50666e98da80d85e438d3515b34040e7384328195412ae3" style="color:#ffffff; text-decoration:none; display:block;" target="_blank">TAKE ME THERE</a></strong></td></tr></table></td></tr><!-- end cta --></table></td></tr></table></td></tr></table></td></tr></table><br>
+<table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"><!-- Arrow --><table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+ 
+  <tr>
+   <td align="center" valign="top">
+    <table border="0" cellpadding="0" cellspacing="0" class="MainTable" role="presentation" style="width:648px; margin:0 auto;" width="648">
+     <!-- start img -->
+      <tr>
+       <td align="center" style="padding: 10px 0;" valign="top">
+        <img alt="" border="0" height="18" src="https://image.mail.primark.com/lib/fe371171756404787c1474/m/1/eab474d5-691d-4fbe-891b-b7064838b63f.png" style="display:block; border:0;" width="31"></td></tr><!-- end img --></table></td></tr></table></td></tr></table><br>
+<table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"><!-- Product recs x3 img+desc --><table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+	
+		<tr>
+			<!-- set padding between modules here --><td align="center" style="padding: 0 0 48px 0;" valign="top">
+				<table border="0" cellpadding="0" cellspacing="0" class="MainTable" role="presentation" style="width:648px; margin:0 auto;" width="648">
+					
+						<tr>
+							<!-- set module bg colour and padding here --><td bgcolor="#FFFFFF" class="padding-horz-16 border-radius-0" style="padding:0 32px; border-radius: 12px 12px 12px 12px;">
+								<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+									<!-- start headline -->
+										<tr>
+											<td align="center" valign="top">
+												<h2 class="text-size-26px" style="font-family: Arial, 'Arial MT Pro', 'Helvetica Neue', Helvetica, 'SF Pro Text', sans-serif; font-size:28px; line-height:36px; color:#000000; mso-line-height-rule:exactly; font-weight: bold; padding:0; margin:0;">
+													Your curated must-haves</h2></td></tr><!-- end headline --><tr>
+											<td style="padding: 20px 0 0;">
+												<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+													
+														<tr>
+															<td>
+																<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+																	
+																		<tr>
+																			<!-- start col 1 --><th align="left" class="block" style="font-weight:normal;padding: 0 0 0 0; width:184px;" valign="top" width="184">
+																				<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+																					<!-- start col 1 product -->
+																						<tr>
+																							<td align="center" valign="top">
+																								<a  href="https://click.mail.primark.com/?qs=275354220499edcf9f994f4ef8fa70b377ebc2041515316003adea8f4fdc784a754f62175114f3161d7916949922a45686c161c5bb0b45d944d9c86f41f63913" target="_blank"><img alt="Product image" border="0" height="342" src="https://primarklimited.germany-2.evergage.com/api/dataset/uk_web_prod/campaign/qvS2r/nxtG1/1/summary.png?userId=00QTX00000EmtnB2AR" style="display:block; border:0;border-radius:12px 12px 0 0;" width="184"></a></td></tr><!-- end col 1 product --></table></th><!-- end col 1 --><!-- start col 2 --><th align="left" class="block padding-vert-12" style="font-weight:normal;padding: 0 0 0 0; width:216px;" valign="top" width="216">
+																				<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+																					<!-- start col 2 product -->
+																						<tr>
+																							<td align="center" valign="top">
+																								<a  href="https://click.mail.primark.com/?qs=275354220499edcf7b0f81b65b73c2dbf58fc5b39193a799be992f020adaf973012578d73ae85f1c214c5260a52aaa53eb64cbfc5eacac780394ca4a85f161a9" target="_blank"><img alt="Product image" border="0" height="342" src="https://primarklimited.germany-2.evergage.com/api/dataset/uk_web_prod/campaign/qvS2r/nxtG1/2/summary.png?userId=00QTX00000EmtnB2AR" style="display:block;border:0;border-radius:12px 12px 0 0;" width="184"></a></td></tr><!-- end col 2 product --></table></th><!-- end col 2 --><!-- start col 3 --><th align="left" class="block" style="font-weight:normal;padding: 0 0 0 0; width:184px;" valign="top" width="184">
+																				<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+																					<!-- start col 3 product -->
+																						<tr>
+																							<td align="center" valign="top">
+																								<a  href="https://click.mail.primark.com/?qs=275354220499edcf84707a5729f622700abbc352562a55e0826dc6fdeaa9ebfbc541c74016e79914c57fae3d5298d74b3974143ade89bc0ff73117df534f8003" target="_blank"><img alt="Product image" border="0" height="342" src="https://primarklimited.germany-2.evergage.com/api/dataset/uk_web_prod/campaign/qvS2r/nxtG1/3/summary.png?userId=00QTX00000EmtnB2AR" style="display:block; border:0;border-radius:12px 12px 0 0;" width="184"></a></td></tr><!-- end col 3 product --></table></th><!-- end col 3 --></tr></table></td></tr></table></td></tr><!-- start cta --><tr>
+											<td align="center" class="center" style="padding: 20px 0 0;">
+												<table border="0" cellpadding="0" cellspacing="0" class="center" role="presentation">
+													
+														<tr>
+															<td align="center" bgcolor="#000000" style="font-family: Arial, 'Arial MT Pro', 'Helvetica Neue', Helvetica, 'SF Pro Text', sans-serif; font-size:16px; line-height:24px; color:#ffffff; mso-line-height-rule:exactly; padding:12px 32px; border-radius: 24px;" valign="middle">
+																<strong><a  aria-label="See more recommended products" href="https://click.mail.primark.com/?qs=275354220499edcf1b247d8bdeeb62cb4182bee9ac6f1dbc58107f8c8657e6e0ce38592676385fb8ba835e4ddf9b1cee6953e309897d3afa5d13d9ea320ec702" style="color:#ffffff; text-decoration:none; display:block;" target="_blank">SEE MORE</a></strong></td></tr></table></td></tr><!-- end cta --></table></td></tr></table></td></tr></table></td></tr></table><br>
+<table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"><!-- Articles --><table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+ 
+  <tr>
+   <td align="center" valign="top">
+    <table bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" class="MainTable" role="presentation" style="width:648px; margin:0 auto;" width="648">
+     
+      <tr>
+       <td class="padding-horz-16" style="padding:0 32px 48px;">
+        <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+         
+          <tr>
+           <td>
+            <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+             <!-- start col 1 -->
+              <tr>
+               <th align="left" class="block" style="font-weight:normal; width:284px;" valign="middle" width="284">
+                <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                 <!-- start img -->
+                  <tr>
+                   <td align="center" class="imgW100" valign="top">
+                    <a  href="https://click.mail.primark.com/?qs=275354220499edcf2dffe757a68cdd491cae75462f9548e07ef5731c8d31adfb5982ac51869ccf90701b1364eb2c8f00af557e3e2c989e2e4ddd2939097723b5" target="_blank"><img alt="Men's fashion image" border="0" class="width-100" height="378" src="https://image.mail.primark.com/lib/fe371171756404787c1474/m/1/cfa1a31f-220c-479f-99d0-6ea1236a503c.png" style="display:block; border:0;" width="284"></a></td></tr><!-- end img --></table></th><!-- end col 1 --><!-- start col 2 --><th align="left" class="block" style="font-weight:normal;" valign="middle">
+                <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                 
+                  <tr>
+                   <td align="left" class="padding-top-12 padding-horz-0" style="padding:0 0 0 16px;" valign="top">
+                    <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                     <!-- start editorial line -->
+                      <tr>
+                       <td align="left" class="center" style="padding: 0 0 12px;" valign="top">
+                        <p style="font-family: Arial, 'Arial MT Pro', 'Helvetica Neue', Helvetica, 'SF Pro Text', sans-serif; font-size:16px; line-height:24px; color:#000000; mso-line-height-rule:exactly;  padding:0; margin:0;">
+                         STYLING AND OUTFITS</p></td></tr><!-- end editorial line --><!-- start headline --><tr>
+                       <td align="left" class="center" valign="top">
+                        <h2 class="text-size-26px" style="font-family: Arial, 'Arial MT Pro', 'Helvetica Neue', Helvetica, 'SF Pro Text', sans-serif; font-size:28px; line-height:36px; color:#000000; mso-line-height-rule:exactly; font-weight: bold; padding:0; margin:0;">
+                         Your personal stylist</h2></td></tr><!-- end headline --><!-- start copy --><tr>
+                       <td align="left" class="center" style="padding: 16px 0 20px;" valign="top">
+                        <p style="font-family: Arial, 'Arial MT Pro', 'Helvetica Neue', Helvetica, 'SF Pro Text', sans-serif; font-size:16px; line-height:24px; color:#000000; mso-line-height-rule:exactly;  padding:0; margin:0;">
+                         Ever wished you had your very own personal stylist? Well now you do! Our Style Clinic gives you the how-to styling advice, from how to wear the latest prints, styling this season&rsquo;s must-have looks, make-up tutorials and&nbsp;more.</p></td></tr><!-- end copy --><!-- start cta --><tr>
+                       <td align="left" class="center">
+                        <table border="0" cellpadding="0" cellspacing="0" class="center" role="presentation">
+                         
+                          <tr>
+                           <td align="center" bgcolor="#000000" style="font-family: Arial, 'Arial MT Pro', 'Helvetica Neue', Helvetica, 'SF Pro Text', sans-serif; font-size:16px; line-height:24px; color:#ffffff; mso-line-height-rule:exactly; padding:12px 32px; border-radius: 24px;" valign="middle">
+                            <strong><a  aria-label="Read the full article on our how-to styling advice" href="https://click.mail.primark.com/?qs=275354220499edcf2dffe757a68cdd491cae75462f9548e07ef5731c8d31adfb5982ac51869ccf90701b1364eb2c8f00af557e3e2c989e2e4ddd2939097723b5" style="color:#ffffff; text-decoration:none; display:block;" target="_blank">DISCOVER NOW</a></strong></td></tr></table></td></tr><!-- end cta --></table></td></tr></table></th><!-- end col 2 --></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table><!----><!----><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"><!-- Sustainability --><table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+ 
+  <tr>
+   <td align="center" valign="top">
+    <table border="0" cellpadding="0" cellspacing="0" class="MainTable" role="presentation" style="width:648px; margin:0 auto;" width="648">
+     
+      <tr>
+       <td bgcolor="#B0E4F3" class="padding-16" style="padding:32px;">
+        <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+         
+          <tr>
+           <td bgcolor="#ffffff" class="padding-horz-16" style="padding: 32px;">
+            <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+             
+              <tr>
+               <td>
+                <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                 
+                  <tr>
+                   <!-- start col 1 --><th align="left" class="block" style="font-weight:normal; width:257px;" valign="middle" width="257">
+                    <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                     <!-- start img -->
+                      <tr>
+                       <td align="center" class="imgW100" valign="top">
+                        <!-- Women --><a  href="https://click.mail.primark.com/?qs=3058aad84a916ea59b63032764fb42fbc6c52240776eb2a27ca2b2285c4fb947e650d1f3438fb6af977a1921ba16c9692ac23a4dfdc2c6e52fcef95734570484" target="_blank"><!-- Men --></a><a  href="https://click.mail.primark.com/?qs=3058aad84a916ea51a47b5af2afb16d2f9c6412b49a2d4e87c924b030b48843d9b437de4a26fdca24763d8a81a190b682a74ad1695c9b84deecd488a41e8e776" target="_blank"><!-- Kids --></a><a  href="https://click.mail.primark.com/?qs=3058aad84a916ea5d828b594a3f70f8435ed2bca0f478c6764236ab868c46a8e3f2c457697e608d1f50e07cef52feb1f3835d65b636b04c02353f76314568366" target="_blank"><!-- Generic --></a><a  href="https://click.mail.primark.com/?qs=3058aad84a916ea59b25de8ae9f0273c91f7d463045c5d4b60ff5a39969e5752f930b55b0441aad48add3686362ba7ec5d7070b9a2239566dd492879d835b78c" target="_blank">
+<img alt="Group of people in sustainable fashion product range" border="0" class="width-100" height="257" src="https://image.mail.primark.com/lib/fe371171756404787c1474/m/1/99bd4cd4-ed02-4136-938b-38204404edd8.png" style="display:block; border:0;" width="257"></a></td></tr><!-- end img --></table></th><!-- end col 1 --><!-- start col 2 -->
+<th align="left" class="block" style="font-weight:normal;" valign="middle">
+                    <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                     
+                      <tr>
+                       <td align="left" class="padding-top-12 padding-horz-0" style="padding:0 0 0 16px;" valign="top">
+                        <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                         <!-- start headline -->
+                          <tr>
+                           <td align="left" valign="top">
+                            <h3 class="text-size-26px" style="font-family: Arial, 'Arial MT Pro', 'Helvetica Neue', Helvetica, 'SF Pro Text', sans-serif; font-size:28px; line-height:36px; color:#000000; mso-line-height-rule:exactly; font-weight: bold;padding:0; margin:0;">
+                             Our pledge to make clothes more sustainable and recyclable</h3></td></tr><!-- end headline --><!-- start link --><tr>
+                           <td align="left" style="font-family: Arial, 'Arial MT Pro', 'Helvetica Neue', Helvetica, 'SF Pro Text', sans-serif; font-size:16px; line-height:24px; color:#000000; mso-line-height-rule:exactly; padding: 12px 0 0;" valign="top">
+                            <!-- Women --><a  aria-label="Read more on Primark's sustainable clothing ranges" href="https://click.mail.primark.com/?qs=3058aad84a916ea59b63032764fb42fbc6c52240776eb2a27ca2b2285c4fb947e650d1f3438fb6af977a1921ba16c9692ac23a4dfdc2c6e52fcef95734570484" style="color:#000000; text-decoration:underline; font-weight: bold;" target="_blank"><!-- Men --></a><a  aria-label="Read more on Primark's sustainable clothing ranges" href="https://click.mail.primark.com/?qs=3058aad84a916ea51a47b5af2afb16d2f9c6412b49a2d4e87c924b030b48843d9b437de4a26fdca24763d8a81a190b682a74ad1695c9b84deecd488a41e8e776" style="color:#000000; text-decoration:underline; font-weight: bold;" target="_blank"><!-- Kids --></a>
+<a  aria-label="Read more on Primark's sustainable clothing ranges" href="https://click.mail.primark.com/?qs=3058aad84a916ea5d828b594a3f70f8435ed2bca0f478c6764236ab868c46a8e3f2c457697e608d1f50e07cef52feb1f3835d65b636b04c02353f76314568366" style="color:#000000; text-decoration:underline; font-weight: bold;" target="_blank"><!-- Generic --></a>
+<a  aria-label="Read more on Primark's sustainable clothing ranges" href="https://click.mail.primark.com/?qs=3058aad84a916ea59b25de8ae9f0273c91f7d463045c5d4b60ff5a39969e5752f930b55b0441aad48add3686362ba7ec5d7070b9a2239566dd492879d835b78c" style="color:#000000; text-decoration:underline; font-weight: bold;" target="_blank">Find out more</a></td></tr><!-- end link --></table></td></tr></table></th><!-- end col 2 --></tr></table></td></tr><tr>
+               <td style="padding: 20px 0 0;">
+                <table border="0" cellpadding="0" cellspacing="0" class="force-100" role="presentation" width="100%">
+                 
+                  <tr>
+                   <!-- start col 1 --><th align="left" class="block" style="font-weight:normal;" valign="middle">
+                    <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                     
+                      <tr>
+                       <td align="left" class="padding-top-12 padding-horz-0" style="padding:0 16px 0 0;" valign="top">
+                        <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                         <!-- start headline -->
+                          <tr>
+                           <td align="left" valign="top">
+                            <h3 class="text-size-26px" style="font-family: Arial, 'Arial MT Pro', 'Helvetica Neue', Helvetica, 'SF Pro Text', sans-serif; font-size:28px; line-height:36px; color:#000000; mso-line-height-rule:exactly; font-weight: bold;padding:0; margin:0;">
+                             See how affordable fashion can be eco-friendly too</h3></td></tr><!-- end headline --><!-- start link --><tr>
+                           <td align="left" style="font-family: Arial, 'Arial MT Pro', 'Helvetica Neue', Helvetica, 'SF Pro Text', sans-serif; font-size:16px; line-height:24px; color:#000000; mso-line-height-rule:exactly; padding: 12px 0 0;" valign="top">
+                            <a  aria-label="Read more on Primark's commitment to sustainable fashion" href="https://click.mail.primark.com/?qs=3058aad84a916ea53f463a5eccbe7fe89cb9348089c3979c5f841f47ab5e623665b6ea73df151cdb57cfd4cf302758b26a8eb8bc1991c03121e9b4de1118cdd0" style="color:#000000; text-decoration:underline; font-weight: bold;" target="_blank">Find out more</a></td></tr><!-- end link --></table></td></tr></table></th><!-- end col 1 --><!-- start col 2 --><th align="left" class="top" style="font-weight:normal; width:257px;" valign="middle" width="257">
+                    <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                     <!-- start img -->
+                      <tr>
+                       <td align="center" class="imgW100" valign="top">
+                        <a  href="https://click.mail.primark.com/?qs=3058aad84a916ea53f463a5eccbe7fe89cb9348089c3979c5f841f47ab5e623665b6ea73df151cdb57cfd4cf302758b26a8eb8bc1991c03121e9b4de1118cdd0" target="_blank"><img alt="2 young people in sustainable clothing" border="0" class="width-100" height="257" src="https://image.mail.primark.com/lib/fe371171756404787c1474/m/1/05c33c29-b55a-4a77-b1bf-cfc07cbcc05c.png" style="display:block; border:0;" width="257"></a></td></tr><!-- end img --></table></th><!-- end col 2 --></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table><!---->
+       
+      <!----><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"><!-- C1:Footer-Marketing -->
+      <table width="100%" border="0" cellspacing="0" cellpadding="0" role="presentation">
+        <tr>
+          <td align="center" valign="top">
+            <table class="MainTable" width="648" border="0" cellspacing="0" cellpadding="0" style="width:648px; margin:0 auto;" role="presentation" bgcolor="#FFFFFF">
+            <tr>
+              <td class="padding-horz-16" align="center" valign="top" style="padding: 48px 32px; border-top: 1px solid #000000;">
+                <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" role="presentation">
+                  <!-- start social icons -->
+                  <tr>
+                    <td align="center"><div role="navigation" aria-label="Primark social channels"><table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation">
+                      <tr>
+                       <td align="center" style="padding:0 10px;" width="36">
+                        <a  href="https://click.mail.primark.com/?qs=3058aad84a916ea54c6b2075129aa5bc2642c4d0527df50a2ba2f0f142bf5e7eae8598496d363fb10ee7f9c4172dabcc44acdbbe16a38c453aff36bd851d1780" target="_blank"><img alt="Facebook" border="0" src="https://image.mail.primark.com/lib/fe371171756404787c1474/m/1/dfa8b0d0-663e-4c0f-bc41-4f7e2073495e.png" style="display: block;" width="36"></a></td><td align="center" style="padding:0 10px;" width="36">
+                        <a  href="https://click.mail.primark.com/?qs=3058aad84a916ea5184594bf44fcc72c6a2dee70a0d8e8b0508482223e22e431569046f99e7d374284a8f1407b8f879d1c7956edf864c18425839de40e7fb9a3" target="_blank"><img alt="Pinterest" border="0" src="https://image.mail.primark.com/lib/fe371171756404787c1474/m/1/b14fbd0e-741a-4d98-872a-9647602c616a.png" style="display: block;" width="36"></a></td><td align="center" style="padding:0 10px;" width="36">
+                        <a  href="https://click.mail.primark.com/?qs=3058aad84a916ea5656349ddc8d9fb2c9ace2260a86c2fa46ee971846896542b817e26dd6c6c52784a344aebf2226283e766dc905a8f048e4765ebdcd0339ff7" target="_blank"><img alt="Instagram" border="0" src="https://image.mail.primark.com/lib/fe371171756404787c1474/m/1/7ae4723f-ceb8-4e11-b540-a11c046b231c.png" style="display: block;" width="36"></a></td><td align="center" style="padding:0 10px;" width="36">
+                        <a  href="https://click.mail.primark.com/?qs=3058aad84a916ea5777a3355bdb7a2d3ca13b3d2e40a480fb5edc63d8643af7066998af4e5891d2800e0a3af285343a19bb1de3521de7a522b7f82628c3f6969" target="_blank"><img alt="Youtube" border="0" src="https://image.mail.primark.com/lib/fe371171756404787c1474/m/1/cf679b59-1182-4a00-b785-b3043403f8e4.png" style="display: block;" width="36"></a></td><td align="center" style="padding:0 10px;" width="36">
+                        <a  href="https://click.mail.primark.com/?qs=3058aad84a916ea54457cba23c121f2ce04767cd823e33cc4232bd56530fbeff24c8538ee40b4f9992f5fa03492ee145778a4add311021d0c4b903bc03075d09" target="_blank"><img alt="TikTok" border="0" src="https://image.mail.primark.com/lib/fe371171756404787c1474/m/1/bc9494d5-d67a-4967-9f3d-35038a6806fb.png" style="display: block;" width="36"></a></td>
+                      </tr>
+                    </table></div></td>
+                  </tr>
+                  <!-- end social icons -->
+                </table>                  
+                <table width="100%" border="0" cellspacing="0" cellpadding="0" role="presentation">
+                  <tr>
+                    <td align="left" valign="top" style="padding:40px 0 0;">
+                      <div role="navigation" aria-label="Primark useful links">
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0" role="presentation">
+                          <tr>
+                            <!-- start col 1 -->
+                            <th width="284" class="block" align="left" valign="top" style="font-weight: normal;"><table width="100%" border="0" cellspacing="0" cellpadding="0" role="presentation">
+                              <!-- start link -->
+                              <tr>
+
+                                <td align="left" style="padding:12px 0; border-top: 1px solid #000000;">
+                                  <table width="100%" border="0" cellspacing="0" cellpadding="0" role="presentation">
+                                    <tr>
+                                      <td><strong><a  href="https://click.mail.primark.com/?qs=3058aad84a916ea54b1b9d366f2a774c7c3f6d4505d2dcb5f23d0c32ba8bd2b516445ec7cb038a0b452b1ef14cb33fe001144ced0947d9a79b1e6981be11d2f2" style="color: #000000; font-family: Arial, 'Arial MT Pro', 'Helvetica Neue', Helvetica, 'SF Pro Text', sans-serif; font-size: 16px; line-height: 24px; text-decoration: underline;" target="_blank">Find a store</a></strong></td><td align="right" valign="middle" width="20"><img src="https://image.mail.primark.com/lib/fe371171756404787c1474/m/1/b8015080-85be-4e5a-87ee-f43b3144d5ce.png" alt="" width="20" height="14" style="display:block; border:0;" border="0"></td>
+                                    </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                              <!-- end link -->
+                              <!-- start link -->
+                              <tr>
+                                <td align="left" style="padding:12px 0; border-top: 1px solid #000000; border-bottom: 1px solid #000000;">
+                                  <table width="100%" border="0" cellspacing="0" cellpadding="0" role="presentation">
+                                    <tr>
+                                      <td><strong><a  href="https://view.mail.primark.com/?qs=5a4cb70c0813f2de9d0a6fe6066f690c0289046ff70910f77b496ace46c4fc7b65913d67450a61da5f54da2cbbed68bed4e4baa2cf5b6463a8f0fded73d925badc455459bffa69b517559bea77b35dd4" style="color: #000000; font-family: Arial, 'Arial MT Pro', 'Helvetica Neue', Helvetica, 'SF Pro Text', sans-serif; font-size: 16px; line-height: 24px; text-decoration: underline;" target="_blank">View in browser</a></strong></td><td align="right" valign="middle" width="20"><img src="https://image.mail.primark.com/lib/fe371171756404787c1474/m/1/b8015080-85be-4e5a-87ee-f43b3144d5ce.png" alt="" width="20" height="14" style="display:block; border:0;" border="0"></td>
+                                    </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                              <!-- end link -->
+                            </table></th>
+                            <!-- end col 1 -->
+                            <!-- start spacer -->
+                            <th class="m-hide" width="16" align="left" valign="top" style="font-size:0px; line-height:0px; width:16px;padding: 0 0 0 0;">&zwnj;&nbsp;</th>
+                            <!-- end spacer -->
+                            <!-- start col 2 -->
+                            <th class="block" align="left" valign="top" style="font-weight: normal;padding: 0 0 0 0;" width="284">   <table width="100%" border="0" cellspacing="0" cellpadding="0" role="presentation">
+                              <!-- start link -->
+                              <tr>
+                                <td class="border-0" align="left" style="padding:12px 0; border-top: 1px solid #000000;">
+                                  <table width="100%" border="0" cellspacing="0" cellpadding="0" role="presentation">
+                                    <tr>
+                                      <td><strong><a  href="https://click.mail.primark.com/?qs=3058aad84a916ea561f7d24b299eecec4cea3a5d210e9bdc74b4b9a33e3fcd1a6b08d5452483174474f43f34d2abba807fe51f190e172783a9cc8a04cb2a98bf" style="color: #000000; font-family: Arial, 'Arial MT Pro', 'Helvetica Neue', Helvetica, 'SF Pro Text', sans-serif; font-size: 16px; line-height: 24px; text-decoration: underline;" target="_blank">Manage your preferences</a></strong></td><td align="right" valign="middle" width="20"><img src="https://image.mail.primark.com/lib/fe371171756404787c1474/m/1/b8015080-85be-4e5a-87ee-f43b3144d5ce.png" alt="" width="20" height="14" style="display:block; border:0;" border="0"></td>
+                                    </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                              <!-- end link -->
+                              <!-- start link -->
+                              <tr>
+                                <td align="left" style="padding:12px 0; border-top: 1px solid #000000; border-bottom: 1px solid #000000;">
+                                  <table width="100%" border="0" cellspacing="0" cellpadding="0" role="presentation">
+                                    <tr>
+                                      <td><strong><a  href="https://click.mail.primark.com/?qs=3058aad84a916ea509a2920a4d0fa3efcab6449b903fdf27ba70e619bc905c85fe87907119c1eb27e190f9c0e01a64240a43ffccb283a40b9ef88ec93d6773b3" style="color: #000000; font-family: Arial, 'Arial MT Pro', 'Helvetica Neue', Helvetica, 'SF Pro Text', sans-serif; font-size: 16px; line-height: 24px; text-decoration: underline;" target="_blank">Unsubscribe</a></strong></td><td align="right" valign="middle" width="20"><img src="https://image.mail.primark.com/lib/fe371171756404787c1474/m/1/b8015080-85be-4e5a-87ee-f43b3144d5ce.png" alt="" width="20" height="14" style="display:block; border:0;" border="0"></td>
+                                    </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                              <!-- end link -->
+                            </table></th>
+                            <!-- end col 2 -->
+                          </tr>
+                        </table>
+                      </div>
+                    </td>
+                  </tr>
+                  <!-- start text -->
+                   <tr>
+                    <td align="center" style="padding:16px 0 0;">
+                       <p style="font-family: Arial, 'Arial MT Pro', 'Helvetica Neue', Helvetica, 'SF Pro Text', sans-serif; font-size:16px; line-height:24px; color:#000000; mso-line-height-rule:exactly; padding: 0; margin: 24px 0 0;">We sent you this email because you are signed up to receive personalised communications from us. Please note this inbox is not monitored.</p>
+                                           
+                      <p style="font-family: Arial, 'Arial MT Pro', 'Helvetica Neue', Helvetica, 'SF Pro Text', sans-serif; font-size:16px; line-height:24px; color:#000000; mso-line-height-rule:exactly; padding: 0; margin: 24px 0 0;">See our <strong><a  href="https://click.mail.primark.com/?qs=3058aad84a916ea5d7fb9cb28faa319f2685030bc07fcc4179b285ef01408cf3db7d380a573f51fdc291ad68ba4c25489aeb04d6fd76590db395348b3584314c" style="color: #000000; text-decoration: underline;" target="_blank">Privacy Notice</a></strong> for more about us and how we use your data.</p>
+                      
+                      <p style="font-family: Arial, 'Arial MT Pro', 'Helvetica Neue', Helvetica, 'SF Pro Text', sans-serif; font-size:16px; line-height:24px; color:#000000; mso-line-height-rule:exactly; padding: 0; margin: 24px 0 0;">2025 &copy; Primark</p></td></tr>
+                  <!-- end text -->
+                </table>
+              </td>
+            </tr>
+          </table></td>
+        </tr>
+      </table> </td></tr></table><!----> 
+   
+      
+      
+    
+    <!-- end wrapper table inner content -->  
+    </td>
+  </tr>
+</table>
+<div class="gmailfix" style="white-space:nowrap;font:15px courier;line-height:0;color:#ffffff;background-color:#ffffff;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</div>
+  
+<img src="https://click.mail.primark.com/open.aspx?ffcb10-fe9415717667007a7d-fe2b157672610179721570-fe371171756404787c1474-ff8d1d79-fe1f167873610d75741479-fefe1772706205&d=500013&bmt=0" width="1" height="1" alt="">
+</body>
+</html>
+
+--j8GN9e8iL38K=_?:--
+

@@ -1,0 +1,9 @@
+{
+    "See what\u2019s hot and trending for you.eml": {
+        "is_phishing": false,
+        "confidence": 95,
+        "reasoning": "The email headers indicate that the message originates from a legitimate Primark domain, with DKIM, SPF, and DMARC authentication checks all passing successfully. The sending server IP address is consistent with a known Primark mail server. Additionally, the URLs in the email point to a subdomain of mail.primark.com, which is a legitimate domain associated with Primark's email communications. There are no signs of domain spoofing or suspicious links, suggesting that this email is not a phishing attempt.",
+        "confidence_category": "High",
+        "user_feedback": "none"
+    }
+}

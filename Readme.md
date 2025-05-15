@@ -12,6 +12,13 @@ Leveraging LLMs for phishing email detection offers a more effective approach th
 4. Open browser and type the link - should be _127.0.0.1:8000/detect_
 5. Download any email in _.eml_ or _.txt_ format and test the application
 
+## OpenAI API KEY
+
+You can easily set up your own openAI api key.
+When you have it, update the api-key variable in `system\phishingdetection\detect\detection.py`.
+You can reach out to me for help at `stealthingdemon@gmail.com`. 
+LOL dont be intimidated by the email, its just a pseudonym. I promise i'm much friendlier than it sounds.
+
 ## Notes
 
 *Note:* _The emails used in the experiment were excluded from the final submission as a security precaution, because some contained potentially harmful contents, such as phishing emails and harmful encoded binary files. However, the results of the experiment are stored in JSON files in the experiment folder._

@@ -1,0 +1,38 @@
+Analyze all parts of this email thoroughly for potential phishing indicators, prioritizing the validation of headers and URLs over the email content. 
+    Pay special attention to the URLs, if present, and classify the email based on whether the links point to the same, trusted, legitimate domains. 
+    If the email content appears to be a marketing or campaign message, or contains potential phishing indicators, focus on the legitimacy of the headers and URLs rather than the content itself. 
+    Do not classify the email as phishing solely because of its content, unless there are inconsistencies in the headers or evidence that the links lead to different, malicious or suspicious domains. 
+    When uncertain, lean toward classifying the email as 'Legitimate' if the headers are valid and any URLs point to the same trusted sources with no signs of malicious intent. 
+
+
+
++++++++++++++++++++++++++++++++++++=====================================================================================================================================================================
+prompt = f"""
+    Analyze the provided email thoroughly for potential phishing indicators, focusing primarily on the validation of headers and URLs then the content. 
+
+    1. Validate Headers and URLs:  
+       - Review the headers to ensure they originate from legitimate and trusted sources.  
+       - Check all URLs in the email to confirm they point to the same, trusted, and legitimate domains.
+    
+    2. Evaluate Content with Context:  
+       - If the email appears to be a marketing or campaign message, prioritize the investigation of headers and URLs over the content.  
+       - Avoid classifying the email as phishing based solely on its content unless there are clear inconsistencies in the headers or indications that the links lead to malicious or suspicious domains.
+    
+    3. Classification Criteria:  
+       - If the headers are valid and URLs direct to trusted sources without any signs of malicious intent, classify the email as "Legitimate" when unsure.  
+    
+    Follow this structure to ensure an accurate and balanced evaluation of the email.
+    
+    Avoid including lengthy URLs in the response. 
+    
+    Provide the conclusion, a brief justification for the decision, and a concise description of the content, keeping the response direct and to the point without additional commentary or elaboration.
+    
+    Entire response should consist of a single JSON object {{}}, and must NOT be wrapped within JSON md markers.
+    
+    Response format:
+    {{
+        "is_phishing": true or false,
+        "confidence": A numeric confidence level from 0 to 100 indicating the likelihood of phishing or not,
+        "reasoning": "Detailed explanation including specific signs or lack thereof."
+    }}
+    """

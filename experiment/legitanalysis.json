@@ -1,0 +1,2158 @@
+{
+    "L0010.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from a legitimate source, with the 'From' address matching the 'Return-Path'. The URLs included in the email point to Yahoo! Groups, a recognized platform, which adds to the legitimacy. The content discusses a book by Charles Bronson, which aligns with the context of a marketing message. There are no clear indicators of phishing, and the overall structure and tone of the email are consistent with typical group communications.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0011.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers show a consistent origin from 'DeepEddy.Com' and related domains, which appear legitimate. The URLs provided in the content also point to 'DeepEddy.Com' and 'virCIO.Com', both of which are associated with the sender. There are no signs of spoofing or suspicious behavior in the headers, and the content appears to be a technical discussion relevant to the sender and recipient. Overall, while the confidence is not absolute due to the age of the email and potential for domain changes, it is classified as legitimate.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0014.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The headers appear to originate from legitimate sources, with consistent domain usage (e.g., munnari.OZ.AU, DeepEddy.Com, redhat.com). The URLs in the email content point to a known mailing list service (listman.redhat.com), which is associated with Red Hat. The content of the email is technical and relevant to a specific discussion, lacking common phishing traits such as urgent requests for personal information or suspicious links. Overall, the indicators suggest this email is legitimate.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0018.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that the email originates from a legitimate source (DeepEddy.Com) and there are no signs of spoofing or unusual routing. The URLs provided in the content point to known domains associated with the sender. The content itself appears to be a technical discussion rather than a solicitation or deceptive message, further supporting its legitimacy.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0019.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The headers indicate that the email originated from a domain (permafrost.net) that appears legitimate, and the return path aligns with the sender's domain. The URLs included in the email point to known domains (bayarea.com and xent.com) that do not exhibit signs of malicious intent. The content discusses political campaigning and unsolicited emails, which is consistent with the subject line and sender's identity. There are no clear inconsistencies or red flags in the headers or URLs that would classify this email as phishing.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0028.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from a legitimate source, with the 'From' address matching the domain of the mailing list. The URLs present in the email point to a known domain associated with Red Hat, which is a trusted entity. The content of the email is technical in nature and seems to be a discussion among developers, which aligns with the context of the mailing list. There are no clear signs of malicious intent or inconsistencies in the headers.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0030.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The headers indicate that the email is sent from a legitimate domain (DeepEddy.Com) and the reply-to address matches the sender's address. The URLs in the content also point to trusted domains associated with the sender. The content appears to be a technical discussion related to CVS reports, which is consistent with the sender's identity. There are no suspicious indicators or inconsistencies present.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0053.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that the message originates from a legitimate domain (DeepEddy.Com) and the return-path aligns with the sender's address. The URLs present in the content also point to trusted domains associated with the sender. There are no signs of malicious intent in the headers or URLs. The content appears to be a technical discussion between colleagues, which aligns with the context of the sender's domain.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0073.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The headers show a legitimate source, originating from a known domain (zanshin.com) and involving a mailing list (spamassassin-talk@example.sourceforge.net). The URLs included in the email point to trusted domains related to the mailing list and a well-known site (thinkgeek.com). There are no signs of malicious intent in the content, which discusses technical aspects of spam filtering and business models related to email. Overall, the email appears to be a legitimate discussion within a mailing list.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0083.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that it originates from a known email service (bellsouth.net) and is part of a mailing list (freshrpms.net), which is consistent with legitimate communication. The URLs provided in the content point to a mailing list and a Linux-related resource, which are not suspicious. The content itself appears to be a technical discussion, further supporting its legitimacy.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0091.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The headers indicate that the email is part of a mailing list from SourceForge, which is a legitimate source. The URLs provided in the email point to known domains associated with SourceForge and do not exhibit signs of malicious intent. The content of the email discusses technical topics related to software and document conversion, which aligns with the context of a mailing list discussion. There are no inconsistencies or suspicious elements in the headers or URLs.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0094.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from a legitimate source, with the 'From' address matching the domain of the URLs included in the content. The URLs point to known and trusted domains, such as ntk.net and bbc.co.uk, with no signs of malicious intent. The content is consistent with a newsletter format, discussing various topics and including links to articles and events. Overall, there are no clear indicators of phishing.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0098.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate it originates from a legitimate source associated with Ximian, a known entity in the open-source community. The URLs provided in the email point to official Ximian FTP sites and a recognized CVE database, which are consistent with the content discussing a security update for the Gaim application. There are no signs of malicious intent or inconsistencies in the headers or URLs.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0101.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The headers indicate that the email originates from a legitimate source (permafrost.net) with consistent routing through known servers. The URLs included in the email point to zdnet.com, a reputable domain. There are no signs of malicious intent in the content, which discusses political spam and includes links to news articles. Overall, the email appears to be a legitimate discussion rather than a phishing attempt.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0105.eml": {
+        "is_phishing": true,
+        "confidence": 90,
+        "reasoning": "The email headers show an unusual sender address (tomwhore@slack.net) that raises suspicion, as it does not appear to be a legitimate domain associated with the content. The URLs included in the email point to domains that are not directly related to the email's context, and the overall content appears to be a manipulation of information regarding GPL violations, which could indicate a phishing attempt to mislead recipients. The combination of suspicious headers and potentially misleading content leads to a classification of phishing.",
+        "confidence_category": "High",
+        "user_feedback": "wrong"
+    },
+    "L0108.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that it originates from a domain associated with a legitimate mailing list (xent.com), and the URLs included in the content point to recognized and legitimate domains (ars technica, news.com, usdoj.gov). There are no signs of spoofing or suspicious activity in the headers. The content appears to be a discussion about copyright law and does not contain any phishing indicators.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0118.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from a legitimate domain (argote.ch) and there are no signs of spoofing or unusual routing. The URLs were not provided, but the context suggests a technical discussion rather than a phishing attempt. The content is consistent with a discussion about programming languages, which aligns with the subject line, and there are no urgent calls to action or requests for sensitive information.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0194.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from a legitimate source (srv0.ems.ed.ac.uk) and the return path aligns with Yahoo Groups, which is a recognized platform. The URLs provided in the content reference well-known domains (bbc.co.uk and yahoo.com) and do not lead to suspicious sites. Although the content discusses phishing scams, it does not exhibit signs of being a phishing attempt itself. Therefore, the email is classified as legitimate.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0197.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from legitimate Yahoo! Groups, with no signs of spoofing or unusual sender behavior. The URL provided in the email points to a well-known news source (The Guardian), which is a trusted domain. The content of the email discusses a news article and does not exhibit typical phishing characteristics such as requests for personal information or urgent action. Overall, while there is a slight uncertainty due to the nature of the content, the validation of headers and URLs supports a classification of 'Legitimate'.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0200.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from Yahoo Groups, a legitimate platform, and the email addresses used are consistent with this service. The URLs included in the email point to known domains associated with Yahoo and the Nobel Prize website, which are trusted sources. The content itself discusses a legitimate news event regarding Nobel Prize winners, and there are no clear signs of malicious intent or inconsistencies in the headers.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0208.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from a legitimate source, with the 'From' address matching the domain of the newsletter service (mediaunspun.imakenews.net). The URLs included in the email point to known domains related to the content and do not exhibit signs of malicious intent. The content is consistent with a marketing newsletter, discussing current events and offering subscriptions, which aligns with the sender's stated purpose.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0219.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from a legitimate source, with the sender's email matching the domain of BAE Systems. The URLs included in the email are associated with Yahoo! Groups, which is a known and trusted platform. The content of the email discusses technical topics and does not exhibit typical phishing characteristics such as urgency, requests for personal information, or suspicious attachments. Overall, while there are some indicators of a legitimate email, the confidence level is not absolute due to the age of the email and potential changes in domain reputation over time.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0221.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from a legitimate source, with the 'From' and 'Return-Path' matching the same domain (2ubh.com). The URLs included in the email point to established domains (guardian.co.uk and yahoo.com), which are trusted. The content of the email is a news article from The Guardian, which does not exhibit typical phishing characteristics such as requests for personal information or urgent actions. Therefore, while there is some uncertainty, the overall indicators suggest the email is legitimate.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0222.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that it originates from a legitimate source (srv0.ems.ed.ac.uk), which appears to be associated with a university. The URLs included in the email point to Yahoo! Groups, a well-known and trusted platform. The content of the email discusses a topic related to emigration, which aligns with the subject line. There are no clear indicators of malicious intent or inconsistencies in the headers that would suggest phishing.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0223.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from a legitimate source, specifically from a university email domain (ed.ac.uk), which is a trusted institution. The URLs included in the email also point to Yahoo! Groups, a well-known platform. There are no signs of malicious intent in the headers or URLs, and the content is consistent with a news article, which further supports the legitimacy of the email.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0224.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from a legitimate Yahoo! Groups account, and the URLs included point to known domains (theguardian.co.uk and yahoo.com). There are no signs of spoofing or suspicious behavior in the headers. The content is a commentary piece from The Guardian, which is a reputable source. While the subject matter may be controversial, it does not indicate phishing.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0225.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that it originated from a Yahoo! Groups account, which is a legitimate source. The URLs included in the email point to trusted domains, specifically a news site and Yahoo! Groups. The content of the email discusses a local news event, which aligns with the context of a group discussion. There are no clear signs of malicious intent or inconsistencies in the headers.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0232.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers show a consistent pattern of communication between known parties, with the 'From' and 'Reply-To' addresses matching. The domains used (canada.com and xent.com) are legitimate. There are no suspicious URLs present in the content. The email appears to be a continuation of a discussion, which is typical in legitimate correspondence. Although the content is lengthy and somewhat convoluted, it does not exhibit typical phishing characteristics such as urgency, requests for personal information, or malicious links.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0235.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that it originates from a legitimate source, specifically from an alumni email address of Caltech, which is a trusted institution. The return-path and received headers also show a consistent flow from known domains. The URLs, while not explicitly provided, would need to be checked for legitimacy, but the context and content of the email suggest it is a legitimate marketing or informational message regarding DataPower's technology. There are no clear indicators of phishing such as suspicious links or requests for sensitive information.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0238.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that it originates from a legitimate source (ca.com) and the return-path aligns with the sender's domain. The content discusses a legitimate product announcement from DataPower Technology, which is consistent with the subject line. There are no suspicious URLs or signs of malicious intent in the email.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0240.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that it originates from a legitimate source, with the sender's address matching the domain of the organization mentioned (privacyright.com). The URLs, while not explicitly listed, should be checked against the domain for legitimacy. The content of the email discusses a technical topic related to DataPower, which aligns with the context of the original message. There are no clear signs of malicious intent or inconsistencies in the headers.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0272.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from a legitimate source, with consistent sender and reply-to addresses associated with the RPMForge project. The URLs included in the email point to known domains related to the project (freshrpms.net and alsa-project.org), which are reputable and relevant to the content of the email. The content itself discusses technical details about ALSA sound drivers, which aligns with the expected communication in a mailing list context. Overall, there are no clear indicators of phishing.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0277.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that the message originated from a Hotmail account, which is a legitimate email service. The Return-Path and From address match, and there are no signs of spoofing. The URL provided points to a legitimate CNN domain, which is a trusted news source. The content of the email discusses a historical case and does not contain any suspicious requests or prompts for sensitive information. Overall, there are no clear indicators of phishing.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0278.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that the message originates from a legitimate source (permafrost.net) and the return path aligns with the sender's domain. The URLs included in the email point to well-known and trusted domains (news.com, canada.justice.gc.ca, etc.), and there are no signs of malicious intent. The content appears to be a discussion on Canadian government proposals regarding internet surveillance, which aligns with the context of the sender's email address. Therefore, while the content may be controversial, there are no clear indicators of phishing.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0300.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that it originates from a legitimate source (srv0.ems.ed.ac.uk) and the return path aligns with Yahoo Groups. The URLs included in the email point to Yahoo domains, which are trusted. The content, while controversial, does not show clear signs of phishing intent, such as requests for personal information or suspicious links. Therefore, the email is classified as legitimate despite its provocative subject matter.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0304.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from a legitimate source, with the 'From' address matching the domain of the 'To' address. The URLs included in the email point to known domains related to Linux and CVS, which are relevant to the content of the discussion. The content itself is a technical inquiry about Linux, which aligns with the context of the mailing list. There are no clear indicators of phishing or malicious intent.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0307.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from a legitimate source (ucd.ie), and the Reply-To address matches the From address, which is a good sign. The URLs included in the email (e.g., the link to the Irish Linux Users' Group) also point to legitimate domains. The content of the email discusses technical issues related to compiling software, which is consistent with the context of a technical discussion group. There are no clear indicators of phishing, such as suspicious links or requests for sensitive information.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0316.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that the message is sent from a legitimate domain (shipwright.com) and the return path aligns with the sender's domain. The URLs provided in the email point to a known domain (techcentralstation.com), which does not exhibit signs of being malicious. The content appears to be a political commentary rather than a solicitation or request for sensitive information, further supporting its legitimacy.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0320.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from a legitimate source, specifically from an alumni email address associated with Caltech. The return path and received headers indicate a consistent flow from trusted servers. The URLs included in the email point to a legitimate domain (newyorker.com) known for its reputable content. The content of the email discusses a political article, which aligns with the context of a discussion among alumni. There are no clear signs of malicious intent or inconsistencies in the headers, leading to a classification of the email as legitimate.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0326.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear legitimate, originating from a known Yahoo domain and passing through recognized servers. The content is a discussion about software licenses, which aligns with the context of the mailing list. No suspicious URLs were present, and the email does not exhibit typical phishing characteristics such as urgency or requests for sensitive information.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0335.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that it originates from a legitimate source associated with a known mailing list. The URLs provided in the content point to trusted domains related to Nessus and Freshrpms, which are recognized within the context of the email. There are no signs of malicious intent or inconsistencies in the headers that would suggest phishing.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0337.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from a legitimate source, with consistent domain usage (freshrpms.net) and no signs of spoofing. The URLs included in the text content point to the same domain, which is known and trusted for RPM packages. The content is technical in nature, discussing a specific issue with package management, which aligns with the context of a mailing list. There are no clear indicators of malicious intent or phishing tactics.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0357.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that it originated from a legitimate source associated with NYTimes.com, and the URLs point to trusted domains, specifically nytimes.com. The content appears to be a legitimate article from the New York Times, with no clear signs of malicious intent or inconsistencies in the headers.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0360.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from a legitimate source, with the sender's email address matching the domain of the organization mentioned. The URLs included in the email point to reputable domains (e.g., nytimes.com) and do not exhibit any signs of being malicious or suspicious. The content of the email discusses historical events and does not contain any typical phishing characteristics such as requests for personal information or urgent calls to action. Given the valid headers and trusted URLs, the email is classified as legitimate.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0372.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that it originates from a known domain (ianbell.com) and the return path matches the sender's domain, which is a positive sign for legitimacy. The URLs provided point to a legitimate mailing list domain (xent.com). The content of the email is a discussion about socialism and bureaucracy, which aligns with the subject line and context of the conversation. There are no clear indicators of phishing, such as suspicious links or mismatched sender information.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0373.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The headers indicate that the email originates from a legitimate source (ianbell.com) and the return path aligns with the sender's domain. The URLs provided in the email point to xent.com, which appears to be a legitimate domain. The content of the email discusses political and economic topics, which is consistent with the subject line and does not exhibit typical phishing characteristics such as urgency, requests for personal information, or suspicious attachments.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0374.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate a legitimate source with a consistent domain (xent.com) and no signs of spoofing. The URLs provided lead to the same domain, which appears to be a mailing list. The content discusses political and economic topics without any suspicious requests or links, aligning with typical email discussions. Therefore, the email is classified as legitimate.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0375.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from a legitimate source, with a consistent domain (xent.com) and no signs of spoofing. The URLs included in the email point to the same domain and do not lead to suspicious sites. The content is a discussion among known individuals in the tech field, which aligns with the context of the email. Overall, there are no clear indicators of phishing.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0376.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from a legitimate source, with consistent domain usage and no signs of spoofing. The URLs included in the email point to a known mailing list domain. The content is a discussion between two individuals, which aligns with the context of a conversation rather than a phishing attempt.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0378.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that it originates from a legitimate source (docserver.cac.washington.edu) associated with the University of Washington. The URLs provided in the content point to known domains (xent.com and others) that appear to be legitimate and relevant to the subject matter. There are no clear signs of malicious intent in the headers or URLs, and the content is informative about MIME, which aligns with the subject of the email.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0380.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from legitimate sources, with a consistent chain of email routing. The sender's domain (homeport.org) and the recipient's domain (pobox.com) are both valid and do not show signs of spoofing. The URLs provided in the email (eugen.leitl.org and idefense.com) lead to legitimate domains associated with security research and vulnerability reporting. The content discusses a relevant topic in cybersecurity without any suspicious requests or prompts for sensitive information.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0397.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that it originates from a legitimate source, specifically an alumni email address from Caltech. The return path and received headers show a consistent flow from trusted domains. The URL included in the email points to a legitimate site related to the Dirksen Center, which is a recognized institution. The content appears to be a discussion about a historical quote, lacking any urgent call to action or requests for sensitive information, which are common in phishing attempts.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0413.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that it originates from a known domain (canada.com) and the reply-to address matches the sender's address, which is consistent with legitimate communication. The URLs in the content point to a legitimate domain (teledyn.com) associated with the sender. The content appears to be a technical discussion rather than a solicitation or request for sensitive information, which further supports its legitimacy.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0428.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that it originates from a legitimate source (mithral.com), and the return path aligns with the sender's domain. The URLs included in the email point to the same domain as the sender. The content appears to be a commentary on the tech industry's decline, which aligns with the subject line and does not exhibit typical phishing characteristics such as requests for personal information or urgent action.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0437.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from legitimate sources associated with the domain 'ebuilt.com', and the Return-Path matches the sender's email. The URLs, while not explicitly listed, would need to be checked against the domain for legitimacy, but the context suggests a discussion among known colleagues. The content is a technical discussion about programming languages, which aligns with the sender's identity and does not exhibit typical phishing characteristics.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0441.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that it originates from a legitimate domain (DeepEddy.Com) and the return path matches the sender's address. The URLs present in the content also point to known domains associated with the sender. There are no signs of malicious intent in the headers or URLs, and the content appears to be a technical discussion related to software development, which aligns with the context of the sender's domain.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0442.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from a legitimate source, with consistent domain usage (DeepEddy.Com and virCIO.Com). The URLs included in the content also point to these trusted domains. There are no signs of malicious intent or inconsistencies in the headers that would indicate phishing. The content is a technical discussion likely related to software, which aligns with the sender's domain.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0443.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The headers indicate the email is sent from a legitimate source (DeepEddy.Com) with consistent domain usage. The URLs provided in the content also point to the same trusted domains. There are no signs of malicious intent or inconsistencies in the headers that would suggest phishing.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0444.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from a legitimate domain (DeepEddy.Com) and the email is signed with PGP, indicating a level of authenticity. The URLs included in the content also point to the same domains and do not raise any red flags. The content of the email is consistent with a professional communication, and there are no clear indicators of phishing.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0448.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from legitimate sources, with a consistent domain (munnari.OZ.AU) and no signs of spoofing. The URLs included in the email point to a mailing list at redhat.com, which is a trusted domain. The content of the email is technical in nature, discussing software patches, which aligns with the context of the mailing list. There are no clear indicators of phishing.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0454.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from a legitimate source, with the 'From' and 'Reply-To' addresses matching the domain freshrpms.net, which is a known repository for RPM packages. The URLs present in the email point to agnula.org and freshrpms.net, both of which are legitimate domains. The content of the email discusses technical issues related to ALSA and RPM packages, which aligns with the context of the mailing list. There are no clear signs of malicious intent or inconsistencies in the headers.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0461.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from a legitimate source, with no signs of spoofing or manipulation. The URLs included point to a well-known and reputable domain (theguardian.com), which is consistent with the content of the email discussing technology and internet access. The content itself is informative and relevant, lacking any typical phishing characteristics such as urgent requests for personal information or suspicious attachments.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0469.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers show a legitimate source, with the sender's email matching the expected domain of an alumni email address from Caltech. The URLs included in the email point to a known domain (infoworld.com), which is a reputable site. The content appears to be a news article discussing Max Levchin and PayPal, which aligns with the subject line. There are no clear indicators of phishing, such as suspicious links or mismatched sender information.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0470.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from legitimate sources, with a consistent return path and no signs of spoofing. The URLs included in the content lead to known domains related to the discussion topic, and there are no suspicious links or requests for sensitive information. The content is technical and relevant to a specific audience, which aligns with typical mailing list discussions.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0473.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The headers indicate that the email comes from a legitimate source (mithral.com) and there are no signs of spoofing or unusual routing. The URLs included in the email point to established domains related to the content discussed, which is technical in nature. The overall context of the email appears to be a discussion among knowledgeable individuals about asynchronous I/O, further supporting its legitimacy.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0474.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers show a consistent chain of legitimate email servers, and the sender's email address appears to be valid and associated with a known domain. The URLs provided in the content lead to legitimate domains (maxwell.com and ibuc.com), with no signs of redirection to suspicious sites. The content is a technical discussion about electric cars and capacitors, which aligns with the context of the email thread. Overall, there are no clear indicators of phishing.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0476.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that the email originated from a legitimate domain (mithral.com) and the return path aligns with the sender's domain. The URLs present in the email point to the sender's domain, which is consistent with legitimate communication. The content discusses a legitimate news topic related to the EPA and diesel exhaust, and there are no clear indicators of phishing such as suspicious links or requests for personal information.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0479.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from legitimate sources, including a university domain (ucsc.edu) and a mailing list domain (xent.com). The return path and the message ID also align with these domains. There are no suspicious URLs or signs of malicious intent in the content, which discusses a personal experience with a toddler and UI design. The overall context and tone of the email suggest it is a genuine message rather than a phishing attempt.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0484.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from a legitimate source, with consistent domain usage throughout the path. The URLs included in the email point to a valid domain. The content discusses job opportunities in a casual context, which is typical for personal or professional correspondence. There are no clear signs of malicious intent or phishing tactics.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0489.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that it originated from a known domain (canada.com) and the return-path aligns with the sender's email. The message does not contain any suspicious URLs or requests for sensitive information. The content appears to be a technical discussion rather than a solicitation or a request for personal data.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0499.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers show a complex path of legitimate servers, with no signs of spoofing or malicious intent. The sender's domain (techmonkeys.net) is not known for phishing, and the return path aligns with the sender's domain. The URLs present in the email are not included, but the context suggests a personal conversation rather than a marketing or suspicious message. The content does not exhibit typical phishing characteristics, such as urgent requests for personal information or links to unknown sites.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0504.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The headers appear to originate from legitimate sources, with no signs of spoofing or unusual routing. The URLs included in the content point to well-known domains related to the discussion and do not lead to malicious sites. The content itself is a technical discussion about Unix and I/O operations, which aligns with the context of the email headers. Overall, there are no clear indicators of phishing.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0507.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from a legitimate source, with consistent domain usage and no signs of spoofing. The URLs were not provided, but if they point to the same trusted domain as the sender, this further supports the legitimacy. The content of the email, while informal and discussing a sensitive topic, does not contain any clear indicators of phishing such as requests for personal information or suspicious links.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0508.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that the email originated from a known domain (shipwright.com) and included a legitimate return path. The URLs mentioned (maxwell.com and ibuc.com) also appear to be valid and correspond to real companies. There are no signs of spoofing or suspicious activity in the headers. The content appears to be a technical discussion regarding capacitors, which is consistent with the subject line. Overall, while there are multiple forwarded messages, the context and headers suggest this is a legitimate email.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0509.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers show a legitimate sender (bitbitch@magnesium.net) and a consistent reply-to address. The received headers indicate a plausible email path without signs of spoofing. The content appears to be a discussion about marriage agencies, which aligns with the subject line. No suspicious URLs were present, and the overall context does not raise immediate red flags. Therefore, it is classified as legitimate despite some informal language.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0510.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The headers indicate that the email originates from a known domain (mithral.com) and appears to follow a legitimate email chain. The Return-Path and Received headers do not show any signs of spoofing or unusual activity. The content of the email discusses a topic related to marriage agencies in Thailand, which aligns with the subject line. No suspicious URLs were present, and the overall context does not suggest malicious intent.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0512.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers show a legitimate sender from a recognized domain (stanfordalumni.org) and the return path aligns with the sender's domain. The message does not contain suspicious URLs or requests for sensitive information. The content appears to be a discussion about mobile technology, which is consistent with the context of the email thread. Overall, there are no clear indicators of phishing.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0518.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers show a legitimate sender (hussein@stanfordalumni.org) and a complex chain of received headers that do not indicate any red flags. The URLs, while not provided in the content, can be assumed to be legitimate given the context of the sender's domain. The content is a discussion about mobile technology and does not contain any typical phishing characteristics such as urgent requests for personal information or suspicious links.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0535.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from a legitimate source, with no signs of spoofing or unusual routing. The sender's domain (techmonkeys.net) is consistent with the email address. There are no suspicious URLs present in the content, and the message is a continuation of a conversation rather than a solicitation or unexpected request, which is typical of phishing attempts.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0537.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The headers appear to originate from legitimate sources, with the 'From' address matching the domain barrera.org, which is consistent throughout the communication. The Return-Path and Received headers also indicate normal email routing without signs of spoofing. The content is a casual conversation with no requests for sensitive information or suspicious links. No URLs were present that pointed to untrusted domains.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0539.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from a legitimate source, with no signs of spoofing or unusual routing. The URLs were not provided, but the email content suggests a personal conversation rather than a marketing or phishing attempt. The context of the discussion is casual and relates to personal matters, which aligns with the headers indicating a personal exchange.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0541.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that the message originated from a legitimate domain (techmonkeys.net) and the return path aligns with the sender's email. There are no suspicious or mismatched domains in the headers. The content appears to be a casual conversation with no requests for sensitive information or links to malicious sites. The context suggests it's a personal exchange rather than a marketing message, reinforcing its legitimacy.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0544.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that the email is sent from a legitimate source (geege@barrera.org) and the return path aligns with the sender's domain. The URLs are not provided, but if they were to point to the same domain, it would further support legitimacy. The content appears to be a casual conversation with no clear signs of phishing or malicious intent.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0573.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that it originates from a domain (magnesium.net) which appears to be legitimate, and the Return-Path aligns with the From address. The URLs were not provided, but assuming they point to the same domain, there are no clear signs of phishing. The content appears to be a discussion rather than a solicitation or request for sensitive information, which further supports its legitimacy.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0580.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from a legitimate source (magnesium.net) and the return path matches the sender's address. The URLs included in the email point to a legitimate domain related to health information. The content of the email is a casual conversation and does not exhibit typical phishing characteristics such as urgent requests for personal information or suspicious links.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0584.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from legitimate sources, with consistent sender information and no signs of spoofing. The URLs provided in the content lead to academic and professional domains related to the journal mentioned, which are reputable. The content itself is a call for papers for an academic journal, which aligns with the context of the email. Overall, there are no clear indicators of phishing.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0598.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The headers indicate that the email originated from a domain associated with Birch.net, which appears to be a legitimate source. The Return-Path and Received headers show a consistent flow of email routing from known servers. The content of the email discusses technical specifications for a laptop, which aligns with a legitimate discussion rather than a phishing attempt. No suspicious URLs were present in the content, and the overall context suggests a genuine communication rather than malicious intent.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0605.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that it originates from a legitimate source associated with The New York Times. The 'From' address and the 'Message-ID' both align with known domains of NYTimes.com. The URLs included in the email point to the official NYTimes.com domain, which is trusted. The content of the email appears to be a legitimate article excerpt from The New York Times, further supporting its authenticity.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0606.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The headers appear to originate from legitimate sources, with no signs of spoofing or unusual routing. The email content is a discussion thread and does not contain any suspicious requests or links. There are no URLs present that lead to untrusted domains, and the overall context suggests it is a legitimate conversation rather than a phishing attempt.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0611.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from a legitimate source, with no signs of spoofing or unusual routing. The URLs included point to a legitimate domain (shareholder.com) associated with Maxtor, a recognized company in the storage solutions market. The content discusses a product announcement from Maxtor, which aligns with the URLs provided. Overall, there are no clear indicators of phishing.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0615.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from a legitimate source (bill@wstoddard.com) and the return path aligns with the sender's domain. The URL provided points to a known publication (nationalreview.com), which is a trusted domain. There are no suspicious indicators in the headers or URLs that would suggest phishing. The content, while politically charged, does not contain any phishing markers or requests for sensitive information.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0616.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The headers indicate that the email is sent from a legitimate source, with a consistent return path and no signs of spoofing. The URLs included in the email point to the Wall Street Journal, a reputable news source. The content, while politically charged, does not contain any clear phishing indicators such as requests for sensitive information or suspicious links. Overall, the email appears to be a legitimate commentary rather than a phishing attempt.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0627.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that it originates from a legitimate source, specifically an alumni email address from Caltech. The return path and received headers show a consistent flow from trusted domains. There are no suspicious URLs present in the email, and the content appears to be a legitimate news article discussing a historical event. The context aligns with a marketing or campaign message, and there are no clear inconsistencies or malicious indicators.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0635.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that it originates from a Yahoo account, which is a legitimate email service. The URLs present in the email point to 'salon.com' and 'yahoo.com', both of which are recognized and trusted domains. The content of the email appears to be a personal commentary on a sensitive topic, which does not exhibit typical phishing characteristics such as requests for personal information or suspicious attachments. Overall, while the content is unusual, there are no clear indicators of phishing.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0640.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that it originated from a legitimate domain (lig.net) and there are no signs of spoofing or unusual routing. The URL provided points to a well-known and trusted domain (washingtonpost.com), which is consistent with the content of the email. The content discusses a serious topic and appears to be an article by a recognized author, Salman Rushdie. There are no clear indicators of phishing or malicious intent.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0643.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from legitimate sources, with consistent sender and reply-to addresses. The URLs present in the email are not provided, but the context suggests a discussion rather than a solicitation or request for sensitive information. The content reflects a conversation about a sensitive topic, which is typical for personal or professional correspondence. Overall, there are no clear indicators of phishing.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0647.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that the message originated from a legitimate domain (lig.net) and the return path aligns with the sender's address. The URLs provided in the content lead to the Washington Post, a trusted news source. Although the content discusses sensitive topics, there are no clear indicators of phishing, such as suspicious links or requests for personal information.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0648.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The headers indicate that the email originated from a legitimate domain (evergo.net) and there are no signs of spoofing or suspicious return paths. The URLs were not provided, but the content appears to be a discussion rather than a marketing or phishing attempt. The context of the email suggests it is part of an ongoing conversation, which further supports its legitimacy.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0652.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that it originates from a legitimate source, with the 'From' address matching the domain of the company mentioned in the content (endeavors.com). The URLs provided in the email also point to trusted domains (endeavors.com and rsasecurity.com) without any signs of malicious intent. The content appears to be a legitimate business communication regarding a partnership announcement, further supporting its authenticity.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0654.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that it originates from a known domain (canada.com) and the return path aligns with the sender's email address. The message ID and spam status suggest it is not flagged as spam. The content appears to be a discussion on religious topics without any solicitation or malicious intent. No suspicious URLs were present, and all links point to legitimate domains.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0673.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers show a legitimate source with a consistent return path and no signs of spoofing. The URLs included in the content point to a well-known news domain, which is trusted. The content discusses a current event and does not exhibit typical phishing characteristics such as urgent requests for personal information or suspicious attachments.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0681.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from a legitimate source, with a consistent return path and no signs of spoofing. The URLs were not provided, but assuming they point to the same domain as the sender's email, there are no indications of malicious intent. The content is conversational and lacks typical phishing characteristics such as urgency or requests for personal information.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0686.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The headers indicate that the email is sent from a legitimate domain (shipwright.com) and the return path aligns with the sender's address. The presence of a PGP signature adds an additional layer of authenticity. The content is conversational and does not request sensitive information or prompt urgent action, which are common phishing tactics. URLs were not present in the content that pointed to suspicious domains.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0697.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The headers indicate that the email originates from a legitimate source, with a consistent return path and no signs of spoofing. The URLs provided in the content point to known domains related to the software mentioned, and there are no suspicious links or requests for sensitive information. The content appears to be a legitimate announcement about software, which aligns with the context of the mailing list.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0698.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The headers appear to originate from legitimate sources, with consistent sender information and no signs of spoofing. The URLs provided in the email point to known domains related to the content discussed, specifically the NeuDist framework and associated mailing lists. The content is technical and relevant to a software release, which aligns with the subject line. There are no clear indicators of malicious intent.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0699.eml": {
+        "is_phishing": true,
+        "confidence": 90,
+        "reasoning": "The email headers show inconsistencies, particularly the 'From' address using a personal Hotmail account, which is not typical for legitimate communications from organizations. The 'Return-Path' also points to a different domain (xent.com), raising further suspicion. The URL included in the email points to a domain that does not appear to be widely recognized or trusted, and the content itself is aggressive and inflammatory, which is common in phishing attempts aiming to provoke a reaction. Overall, the combination of suspicious headers, untrusted URLs, and the nature of the content strongly indicates phishing.",
+        "confidence_category": "High",
+        "user_feedback": "wrong"
+    },
+    "L0708.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that it originates from a legitimate domain (endeavors.com) and the return-path aligns with the sender's address. The URLs provided in the content point to a legitimate company website. The content appears to be a marketing message related to a partnership with Webex, and there are no clear signs of malicious intent or inconsistencies in the headers.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0729.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from a legitimate source, with the 'From' address matching the 'Reply-To' address, and the 'Received' headers showing a consistent path through known domains. The URLs included in the content lead to legitimate domains related to the discussion. The content itself is a forwarded message discussing a historical topic, which aligns with the context of the email. There are no clear signs of malicious intent or inconsistencies in the headers.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0730.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from a legitimate source, specifically from an alumni email address associated with Caltech. The return path and received headers indicate that the email has traversed several trusted servers without any signs of spoofing. The URLs, while not explicitly listed, are assumed to be legitimate based on the context of the email. The content discusses political and social issues, referencing a document related to U.S. national security policy, which aligns with the sender's background. There are no clear indicators of malicious intent, and the email does not exhibit typical phishing characteristics such as urgent requests for personal information or suspicious links.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0737.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers show a legitimate source, originating from a known email provider (hotmail.com) and the return path aligns with the sender's domain. The URLs, while not present in the provided content, do not indicate any suspicious domains based on the sender's email address. The content appears to be a discussion on socio-political topics, which is consistent with the context of the email thread. There are no clear indicators of phishing or malicious intent.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0738.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that the message originated from a Hotmail account, which is a legitimate email service. The Return-Path and Received headers show a chain of delivery that appears consistent with normal email routing. The URLs in the email point to a news article domain that is not flagged as malicious. The content discusses a legitimate legislative topic without any suspicious requests or prompts. Overall, while the sender's name is unconventional, there are no clear indicators of phishing.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0764.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that the message originated from a legitimate domain (permafrost.net) and there are no signs of spoofing or suspicious activity. The URLs provided point to the trusted domain of Forbes, which is a reputable source. The content appears to be a discussion rather than a solicitation or request for sensitive information, further supporting its legitimacy.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0766.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The headers indicate that the email originates from a legitimate domain (barrera.org) and the return path aligns with the sender's email. The URLs present in the email appear to lead to known domains (forbes.com and ibiblio.org), which are reputable. The content discusses a political topic and does not contain any obvious phishing indicators. Overall, while there is some complexity in the headers, they do not raise significant red flags.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0769.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from a legitimate source, with consistent sender and reply-to addresses. The URLs included in the email point to known domains related to the sender's identity. The content of the email discusses historical economic topics and does not contain any requests for sensitive information or suspicious links. Overall, there are no clear indicators of phishing.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0772.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that the email originates from a known domain (shipwright.com) and includes valid return paths and received headers. The presence of a PGP signature adds a layer of authenticity. The URLs included in the email point to a legitimate domain (ibuc.com) associated with the sender. The content appears to be a discussion on economic theories and does not contain any suspicious requests or links. Overall, there are no clear indicators of phishing.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0773.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers show a legitimate sender (garym@canada.com) and the return path aligns with the sender's domain. The URLs provided in the email point to academic and government domains (e.g., uah.edu, nasa.gov) which are trusted sources related to climate science. The content discusses scientific research and includes contact information for reputable scientists, further supporting its legitimacy.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0776.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The headers appear to originate from a legitimate source, with the 'From' address matching the domain of the content. The URL provided points to a well-known and trusted domain (nytimes.com). There are no signs of malicious intent in the headers or URLs, and the content is a news article from The New York Times, which aligns with the URL provided. Therefore, the email is classified as legitimate.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0777.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that it originates from a legitimate source, with no signs of spoofing or unusual routing. The URLs provided point to a known and trusted domain (wsj.com) associated with The Wall Street Journal, which is a reputable news organization. The content of the email discusses a commentary piece related to the rebuilding of the World Trade Center, which aligns with the context of the URLs and sender's information. There are no clear inconsistencies or malicious indicators present.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0779.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers show a legitimate sender (owen@permafrost.net) and a consistent path through trusted servers, indicating it is not spoofed. There are no suspicious URLs present in the content, and the email appears to be a discussion rather than a solicitation or request for sensitive information. The content is lengthy and discusses economic and educational topics, which aligns with typical email exchanges rather than phishing attempts.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0794.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that it originated from a legitimate domain (best.com), and the return path aligns with the sender's email. The URLs provided lead to a trusted news source (usnews.com) and do not exhibit any signs of malicious intent. The content appears to be a casual discussion about archaeology and global warming, which is consistent with the provided URL. Overall, there are no clear indicators of phishing.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0795.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that it originates from a legitimate source, specifically from an alumni email address associated with Caltech. The Return-Path and Received headers show a consistent flow from trusted domains. There are no suspicious URLs present in the content, which primarily discusses a topic related to internet censorship and encryption. The context of the email aligns with a discussion rather than a marketing or phishing attempt, and there are no clear indicators of malicious intent.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0796.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that it originates from a domain (magnesium.net) that does not appear to be associated with known phishing activities. The Return-Path and Reply-To addresses match the From address, which is a positive sign. The URLs were not provided, but the content appears to be a legitimate discussion about a tax proposal in Seattle, with no immediate signs of malicious intent. The context of the email suggests it is part of a conversation rather than a solicitation or scam.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0799.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that it originates from a legitimate source (alumni.caltech.edu) and the return path matches the sender's domain. The URLs provided in the content point to well-known and trusted domains (sfgiants.com, lapis-sf.com, ritzcarlton.com, baysail.com, fairmont.com), which do not show any signs of malicious intent. The content appears to be a marketing message related to a local event, which is consistent with the context of the email. Overall, there are no clear indicators of phishing.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0805.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that it originates from a legitimate source, with the 'From' address matching the domain in the return path and the received headers showing a consistent flow from known servers. The content appears to be a discussion among known individuals, with no suspicious links or requests for sensitive information. The URLs present in the email are also from trusted domains. Overall, there are no clear indicators of phishing.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0806.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from a legitimate source, with no signs of spoofing or manipulation. The URLs included in the content lead to a domain that is not known for malicious activity. The content itself discusses a relevant topic without any suspicious requests or prompts. Overall, while the email is dated, there are no clear indicators of phishing.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0807.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that it originates from a legitimate domain (evergo.net) and shows a consistent path through known servers without signs of spoofing. The URLs are not provided, but the sender's domain appears to be valid. The content discusses philosophical and economic themes without any solicitation or requests for sensitive information, which is typical of legitimate discussions rather than phishing attempts.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0808.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The headers indicate that the email originated from a legitimate Hotmail account, and the return path aligns with the sender's domain. The URLs provided in the content point to a well-known and trusted news website (U.S. News). There are no suspicious indicators in the headers or URLs that suggest malicious intent. The content appears to be a legitimate discussion about archaeology, with no red flags present.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0826.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that it originates from a known domain (shipwright.com) and the return path is consistent with the sender's email address. The URL provided leads to a legitimate domain (newyorker.com), which is a reputable publication. The content of the email appears to be an article from The New Yorker, discussing political topics, and does not contain any obvious phishing indicators such as requests for personal information or suspicious attachments. Although the email is dated from 2002, the validation of headers and URLs suggests it is not phishing.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0831.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The headers appear to originate from a legitimate source, with the 'From' address matching the 'Return-Path' and consistent domain usage. The URLs were not provided, but assuming they point to the same domain as the sender's email, there are no signs of malicious intent. The content discusses CO2 and climate change, which aligns with the subject line and appears to be a legitimate discussion rather than a phishing attempt.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0841.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The headers indicate that the email originates from a legitimate source, with consistent sender information. The URL provided in the email points to a known news outlet, which does not appear to be malicious. The content, while discussing a political issue, does not contain any obvious phishing indicators such as requests for personal information or suspicious attachments. Overall, the email seems to be a legitimate forwarded message regarding energy deregulation.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0842.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that it originates from a legitimate source (ejw@cse.ucsc.edu), and the return path aligns with the sender's domain. The URLs included in the email point to established domains related to climate data (grida.no and cdiac.ornl.gov), which are not flagged as malicious. The content discusses scientific data and climate change, which is consistent with the context of the email. Overall, there are no clear signs of phishing.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0854.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from a legitimate source, with no signs of spoofing or malicious intent. The sender's email domain (best.com) is consistent with the name provided, and the return path aligns with the sender's domain. The content of the email is a lengthy discussion about Native American economics, which, while controversial, does not contain typical phishing indicators such as requests for personal information or links to suspicious websites. No URLs were present to verify against trusted sources, but the overall context suggests a legitimate conversation rather than a phishing attempt.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0859.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from a legitimate source, with the 'From' address matching the domain of 'endeavors.com'. The 'Received' headers show a consistent path from the sending server to the recipient. No suspicious URLs were present in the content, and the message does not exhibit typical phishing characteristics such as urgency or requests for sensitive information. The content is a critique of web forms, which aligns with the sender's apparent intent.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0860.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that it originates from a known domain (noskillz.com) and the return path matches the sender's domain. The message ID and received headers show a legitimate email chain. The content is a discussion about web forms and data privacy, which aligns with the context of a professional conversation. No suspicious URLs were present, and the overall structure appears consistent with legitimate correspondence.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0869.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that it originates from a legitimate source, specifically from an email address associated with Caltech and the New York Times. The URLs present in the email point to the official New York Times domain, which is a trusted source. The content of the email discusses a news article from the New York Times and does not exhibit any common phishing characteristics such as urgent requests for personal information or suspicious attachments.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0872.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from a legitimate domain (magnesium.net) and do not show signs of spoofing. The URLs included point to a known news outlet (post-gazette.com), which is a trusted source. The content of the email discusses a political topic and does not contain any suspicious requests or prompts for sensitive information. Therefore, while there are some unusual aspects, the overall indicators suggest that this email is not phishing.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0889.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The headers appear to originate from a legitimate source, with consistent sender and reply-to addresses. The return-path and message ID also align with typical email structures. The content of the email is a discussion about free speech, which does not contain any suspicious requests or prompts for sensitive information. No URLs were present to validate, but the overall context and header validation suggest this email is legitimate.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0892.eml": {
+        "is_phishing": false,
+        "confidence": 75,
+        "reasoning": "The email headers indicate that it originates from a known email service (hotmail.com) and the return path aligns with the sender's domain. The URLs provided do not lead to any known malicious domains, and the content, while unusual, does not contain any phishing attempts or requests for sensitive information. The overall context appears to be a personal or niche discussion rather than a phishing attempt.",
+        "confidence_category": "Medium",
+        "user_feedback": "correct"
+    },
+    "L0896.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The headers indicate that the email originated from a legitimate source, with a consistent return path and no signs of spoofing. The URLs provided in the email lead to domains that do not exhibit malicious behavior. The content appears to be a discussion on unconventional theories rather than a phishing attempt. While the subject matter is unusual, there are no clear indicators of phishing or malicious intent.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0916.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The headers show a complex chain of legitimate email servers, with no indication of spoofing or malicious intent. The sender's email domain (shipwright.com) appears valid, and the return path aligns with the sender. The URLs included in the content point to legitimate domains, and there are no suspicious links or requests for sensitive information. The content is a technical discussion, which is consistent with the context of the email headers.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0919.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The headers appear to originate from a legitimate source, with no signs of spoofing or manipulation. The Return-Path and From addresses match the sender's domain, and the email does not exhibit typical phishing characteristics. The URLs provided in the content point to a legitimate domain associated with the sender. The content itself is a technical discussion, which aligns with the context of the email, further supporting its legitimacy.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0927.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that the message originated from a legitimate source associated with The New York Times, as evidenced by the 'From' address and the 'Received' headers showing a chain of delivery from nytimes.com servers. The URLs in the email point to the official NYTimes.com domain, which is a trusted source. The content of the email discusses a news article from NYTimes.com, which aligns with the sender's email address. There are no clear signs of phishing, and the overall context appears legitimate.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0942.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that it originates from a legitimate source (geege@barrera.org) and the return path matches the sender's domain. The URLs included in the email point to known domains (mindprod.com and aol.com) that do not exhibit signs of malicious intent. The content appears to be a casual discussion about personal experiences and thoughts, which aligns with the context of a conversation rather than a phishing attempt.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0956.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that it originates from a legitimate source, with the 'From' and 'Reply-To' addresses matching and pointing to a known domain (endeavors.com). The 'Received' headers show a consistent path through trusted servers. The URLs included in the email lead to a legitimate educational domain (cs.utk.edu), which is consistent with the content discussing programming language design. Overall, there are no signs of malicious intent or discrepancies in the headers.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0978.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The headers indicate that the email originates from a domain (permafrost.net) that appears legitimate, and there are no signs of spoofing or unusual routing. The URLs provided in the email point to known domains (bayarea.com and xent.com) that are not flagged as malicious. The content discusses political communication and unsolicited emails, which aligns with the context of a legitimate discussion rather than a phishing attempt.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L0983.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from a legitimate source, with consistent domains (evergo.net and xent.com) and no signs of spoofing. The URLs provided lead to known domains associated with mailing lists. The content is a discussion about economic theories and does not contain any suspicious requests or links.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1005.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from a legitimate source, with no signs of spoofing or manipulation. The URLs included in the email point to known domains associated with SourceForge and a legitimate marketing campaign. The content discusses a technical issue related to Procmail, which aligns with the context of the mailing list. Overall, there are no clear indicators of phishing.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1010.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that it originates from a legitimate source (alumni.caltech.edu) and the return path aligns with the sender's domain. There are no suspicious or misleading URLs present, and the content appears to be a legitimate announcement regarding DataPower's technology. The overall structure and context of the email suggest it is a professional communication rather than a phishing attempt.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1013.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The headers appear to originate from a legitimate source (ca.com), and the Return-Path aligns with the sender's domain. The URLs are not provided, but the content discusses a legitimate technology announcement related to DataPower, which is a known entity in the industry. There are no obvious signs of malicious intent or inconsistencies in the headers.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1015.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that it originates from a legitimate source, with the sender's domain (privacyright.com) and the recipient's domain (caltech.edu) being valid. The URLs, although not explicitly listed, are likely to point to trusted domains based on the context of the email. The content discusses a technical topic related to XML processing and appears to be a legitimate discussion rather than a phishing attempt. There are no clear signs of malicious intent or inconsistencies in the headers.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1018.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from a legitimate source (permafrost.net) and the URLs included in the content point to recognized domains (news.com, canada.justice.gc.ca). There are no signs of spoofing or malicious intent in the headers or URLs. The content discusses a political topic related to Canadian government proposals, which is consistent with the subject line and sender's name.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1021.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that it originates from a legitimate domain (best.com) and the return path aligns with the sender's address. There are no signs of spoofing or unusual routing that would suggest phishing. The content appears to be a response to a discussion, which is consistent with the subject line. No URLs are present in the email, eliminating the risk of malicious links. Overall, the email does not exhibit clear indicators of phishing.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1022.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers show a legitimate sender (gbolcer@endeavors.com) and a consistent return path, with no signs of spoofing or unusual behavior. The URLs included point to well-known and trusted domains (fcc.gov and intel.com), which do not suggest malicious intent. The content of the email discusses a past event and includes personal anecdotes, which aligns with a legitimate communication rather than a phishing attempt.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1023.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from legitimate sources, with the 'From' address matching the domain of the sender. The URLs included in the email lead to known domains associated with Michael Moore and his film, which are reputable. The content is a marketing message related to a film release, and there are no clear indicators of malicious intent or phishing attempts.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1024.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from a legitimate source, with consistent domain usage (DeepEddy.Com and virCIO.Com). The URLs included in the email point to these domains, which are trusted and do not show signs of malicious intent. The content of the email is a technical discussion and does not contain any suspicious requests or prompts typical of phishing attempts.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1025.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that it originates from a legitimate source, specifically from 'DeepEddy.Com' and contains a valid reply-to address. The URLs provided in the content also point to trusted domains associated with the sender. There are no signs of spoofing or malicious intent in the headers or URLs. The content appears to be a technical discussion regarding software patches, which is consistent with the context of the sender's domain.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1027.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that it originates from a legitimate domain (DeepEddy.Com) and the return path aligns with the sender's address. The URLs included in the content point to trusted domains. The content appears to be a technical discussion about software performance, which is consistent with the sender's identity. There are no clear signs of malicious intent or inconsistencies in the headers.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1028.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from a legitimate source (Valdis.Kletnieks@vt.edu) associated with Virginia Tech, and there are no signs of spoofing or suspicious domains. The URLs are not provided, but the content is technical and relevant to a discussion about software performance, which aligns with the sender's background. The absence of spam indicators and the context of the conversation further support the classification as legitimate.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1029.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from a legitimate source, with consistent domain usage (DeepEddy.Com and virCIO.Com) and no signs of spoofing. The URLs included in the content also point to these domains. The content seems to be a normal discussion between colleagues, lacking any urgent requests or suspicious language typical of phishing attempts.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1032.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The headers indicate that the email originates from a known domain (DeepEddy.Com) and the return path aligns with the sender's address. The URLs present in the email also point to legitimate domains associated with the sender. The content appears to be a technical discussion relevant to the context of the email thread, lacking any signs of malicious intent or urgency typically found in phishing attempts.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1035.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that it originates from a legitimate source (panasas.com) and is part of a technical discussion among known individuals. The URLs present in the email point to trusted domains associated with the mailing list and the sender's organization. The content is technical in nature and appears to be a legitimate conversation about software issues, lacking any typical phishing characteristics.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1036.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The headers show a legitimate sender (kchrist@lsil.com) and a consistent reply-to address (Kevin.Christian@lsil.com). The email is part of a technical discussion among known individuals in a mailing list context, which is supported by the presence of mailing list headers and references. The URLs included in the email point to a legitimate mailing list domain (redhat.com) and do not exhibit any signs of malicious intent.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1038.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from legitimate sources, with a consistent domain (munnari.OZ.AU) associated with the sender. The URLs present in the email content are not included, but the context suggests a technical discussion related to software patches, which is typical in development mailing lists. There are no clear indicators of malicious intent or suspicious links, and the content aligns with a legitimate technical conversation.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1041.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The headers indicate that the email is sent from a legitimate domain (DeepEddy.Com) and the return path matches the sender's address. The URLs present in the content also point to the same domain, which is consistent and trusted. The content appears to be a casual communication regarding technical issues, with no signs of urgency or requests for sensitive information.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1042.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The headers appear to originate from legitimate sources, with a consistent domain (OZ.AU) and no signs of spoofing or unusual routing. The URLs present in the email point to a trusted domain (redhat.com) associated with mailing lists, which is consistent with the content discussing technical issues. The content itself is technical in nature and does not exhibit typical phishing characteristics.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1043.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The headers indicate that the email is sent from a legitimate source (DeepEddy.Com) and the return path aligns with the sender's email. The URLs provided in the content also point to trusted domains associated with the sender. There are no signs of malicious intent or inconsistencies in the headers. The content appears to be a technical discussion, which is consistent with the context of the sender's identity.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1044.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that it originates from a known domain (DeepEddy.Com) and the reply-to address matches the sender's address. The URLs included in the email point to legitimate domains associated with the sender. The content appears to be a technical discussion regarding software performance, which aligns with the context of the sender's domain. There are no clear signs of malicious intent or inconsistencies in the headers.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1045.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that it originates from a legitimate source (panasas.com) and the return path is consistent with the sender's domain. The URLs present in the content point to a mailing list hosted on redhat.com, which is also a trusted domain. The content itself appears to be a technical discussion related to software development, which aligns with the sender's role as a Software Architect. There are no clear signs of phishing or malicious intent.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1046.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that it originates from a legitimate domain (DeepEddy.Com) and the reply-to address matches the sender. The URLs present in the content also point to the same trusted domain. There are no signs of malicious intent or inconsistencies in the headers that would suggest phishing.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1047.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that it originates from a legitimate source (panasas.com), and the return path aligns with the sender's domain. The URLs present in the email content and signature also point to trusted domains (panasas.com and deepeddy.com). There are no signs of malicious intent or suspicious links. The content appears to be a technical discussion relevant to the recipients, which aligns with the context of the email headers.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1048.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that it originates from a legitimate source (DeepEddy.Com) and the return path matches the sender's domain. The URLs in the content also point to trusted domains associated with the sender. There are no signs of malicious intent or inconsistencies in the headers. The content appears to be a technical discussion, which aligns with the context of the sender's domain.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1049.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The headers indicate that the email originates from a legitimate source (panasas.com) and the return path is consistent with the sender's domain. The URLs present in the email point to known and trusted domains, specifically the mailing list for Exmh-workers on redhat.com. The content of the email is a technical discussion relevant to software development, which aligns with the sender's role as a Software Architect. There are no suspicious indicators in the headers or URLs that suggest malicious intent.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1052.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from a legitimate source, specifically from Panasas, which is a known company. The URLs included in the email point to a legitimate mailing list hosted on redhat.com, which is also a trusted domain. The content of the email discusses technical issues related to GnuPG and does not exhibit typical phishing characteristics such as urgent requests for personal information or suspicious links. Therefore, the email is classified as legitimate.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1053.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that it originates from a legitimate source (panasas.com) and the reply-to address matches the sender's address. The URLs included in the email point to a trusted domain (redhat.com) and there are no signs of malicious intent. The content appears to be a technical discussion related to GnuPG, which aligns with the context of the mailing list. Overall, the email does not exhibit typical phishing characteristics.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1054.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that it originates from a legitimate source (panasas.com) and the return path and reply-to addresses match the sender's domain. The URLs included in the email point to a known mailing list service (redhat.com), which is also trusted. The content of the email appears to be a technical discussion regarding GnuPG signatures, which aligns with the context of the mailing list. There are no signs of malicious intent or inconsistencies in the headers.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1055.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers show a legitimate sender (Brent Welch from Panasas) and a consistent reply-to address. The URLs included in the email point to a known mailing list domain (redhat.com) and do not exhibit any signs of malicious intent. The content appears to be a technical discussion related to GPG and EXMH, which aligns with the context of the email. Overall, there are no clear indicators of phishing.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1057.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that it originates from a legitimate source, with a consistent domain (waldner.priv.at) and no signs of spoofing. The URLs are not present in the provided content, but the context suggests a technical discussion among users of a mailing list, which is typical for legitimate correspondence. The content does not exhibit any phishing characteristics, such as urgent requests for personal information or suspicious links.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1070.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that it originates from a known domain (waldner.priv.at) and has a valid return path and reply-to address. The message ID and the presence of a signed multipart content suggest a legitimate source. The content itself appears to be a technical discussion, which aligns with the context of the headers. There are no suspicious URLs or indicators of malicious intent.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1074.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that the message is originating from a legitimate domain (kanga.nu) and the email is part of a mailing list (exmh-users@redhat.com). The URLs present in the email point to trusted domains associated with the mailing list. The content of the email appears to be a technical discussion regarding email clients and security, which aligns with the context of a user group. There are no signs of malicious intent or phishing attempts.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1075.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers show a consistent flow from legitimate sources, particularly from the domain 'es.net', which is associated with the Energy Sciences Network. The URLs are not provided, but the email content and sender information align with a known entity in a technical context. There are no suspicious indicators in the content that would suggest phishing.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1079.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that it originates from a legitimate source with a consistent domain (waldner.priv.at) and there are no signs of spoofing or malicious intent. The URLs are not provided, but the email content is a technical discussion about exmh, which aligns with the sender's identity. Overall, the context and headers suggest it is a legitimate email.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1081.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that it originates from a legitimate source (kanga.nu) and the return path aligns with the sender's domain. The URLs included in the email point to known domains (kanga.nu and redhat.com), which are trusted. The content appears to be a technical discussion about the exmh email client, with no signs of malicious intent or phishing attempts.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1084.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers show a legitimate source (lsil.com) and the reply-to address matches the sender's domain. The URLs in the email content point to a known mailing list on redhat.com, which is a trusted domain. The content of the email appears to be a technical discussion regarding software issues, which aligns with the context of the mailing list. There are no signs of malicious intent or suspicious activity.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1087.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The headers indicate that the email originated from a domain (dOink.COM) that appears to be legitimate, and the email is part of a discussion related to technical issues (exmh bug). The URLs in the email are not present, but the content does not exhibit typical phishing characteristics. The overall context suggests a legitimate exchange among users discussing email configuration and PGP encryption.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1094.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from a legitimate source, with consistent domain usage (munnari.OZ.AU and related domains). The URLs present in the email also point to a trusted domain (redhat.com) associated with a mailing list. The content of the email is a technical discussion, which aligns with the context of the mailing list. There are no clear signs of malicious intent or inconsistencies in the headers.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1100.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that it originates from a legitimate source (es.net) and the return path aligns with the sender's domain. The URLs present in the email point to a known mailing list domain (redhat.com), which is reputable. The content appears to be a technical discussion among users of a mailing list, with no signs of malicious intent or phishing tactics.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1105.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that the email originated from a legitimate MIT domain, and the return path and reply-to addresses are consistent with typical mailing list behavior. The URLs in the email point to a known mailing list service (listman.redhat.com), which is also a legitimate domain. The content appears to be a technical discussion about copy-and-paste behavior in X, which aligns with the context of the mailing list. No suspicious indicators were found in the headers or URLs.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1113.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that it originates from a legitimate source (panasas.com) and is consistent with expected mailing list behavior. The URLs point to a trusted domain (redhat.com) and do not show signs of malicious intent. The content appears to be a technical discussion related to a mailing list, which aligns with the context of the headers.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1123.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers show that it originates from a known mailing list and the sender's email domain (bellsouth.net) is a legitimate provider. The URLs included in the email point to the freshrpms.net domain, which is consistent with the context of the email discussing ALSA software. The content appears to be a technical discussion related to Linux software, which aligns with the expected communication in a mailing list. There are no clear indicators of phishing or malicious intent.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1125.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from a legitimate source, specifically from a known mailing list (RPM-List) and a recognized email provider (bellsouth.net). The URLs included in the email point to the freshrpms.net domain, which is consistent with the context of the discussion about ALSA drivers. There are no signs of malicious intent in the content or headers, and the email seems to be a legitimate technical discussion rather than a phishing attempt.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1127.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from a legitimate source, with the 'From' address matching the 'Return-Path' and 'Reply-To' fields. The URLs included in the content point to a known domain (freshrpms.net), which is associated with RPM packages and appears to be legitimate. The content is technical in nature, discussing RPM building, and does not exhibit typical phishing characteristics such as urgent requests for personal information or suspicious attachments.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1128.eml": {
+        "is_phishing": false,
+        "confidence": 95,
+        "reasoning": "The email headers appear to originate from a legitimate mailing list with consistent return paths and a valid sender address. The URLs included in the email point to the trusted domain of the mailing list. The content is technical and relevant to a specific discussion, which aligns with the context of a legitimate mailing list conversation. There are no indicators of malicious intent or phishing tactics.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1132.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that it originates from a legitimate source (angles@aminvestments.com) and the Return-Path and Reply-To addresses also appear consistent with the sender. The URLs, while not explicitly listed in the headers, reference a known mailing list domain (freshrpms.net) which is associated with legitimate software repositories. The content of the email is a technical discussion about ALSA and sound drivers, which aligns with the context of the mailing list. There are no clear signs of malicious intent or phishing tactics.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1135.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from a legitimate source, with consistent sender and recipient addresses. The URLs included in the email point to known and trusted domains related to the Fluxbox project. The content of the email is a straightforward communication regarding a software package, lacking any malicious intent or suspicious requests.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1154.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers show a legitimate sender (bfrench@ematic.com) and a valid reply-to address (rpm-zzzlist@freshrpms.net). The return path and received headers indicate that the email was processed through known servers without signs of spoofing. The content of the email is a technical discussion about RPM package management, which aligns with the context of the mailing list. No suspicious URLs were present, and the overall structure appears consistent with legitimate correspondence.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1158.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The headers appear to originate from a legitimate source, with the 'From' and 'Reply-To' addresses matching the mailing list domain. The URLs in the email point to 'freshrpms.net', which is consistent with the context of the content discussing package management in a Linux environment. There are no signs of malicious intent in the headers or URLs, and the content is relevant to a technical discussion about apt update errors.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1166.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that it originates from a legitimate domain (cs.Helsinki.FI) and the Return-Path matches the sender's address. The URLs present in the email point to a known mailing list and do not lead to suspicious domains. The content appears to be a technical discussion related to Linux package management, which aligns with the context of the mailing list. There are no clear indicators of phishing.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1204.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that it originates from a legitimate source (panasas.com) and the reply-to address matches the sender's domain. The URLs present in the email point to a known mailing list hosted on redhat.com, which is a trusted domain. The content of the email appears to be a technical discussion related to software, lacking any suspicious requests or urgent calls to action. Overall, there are no clear indicators of phishing.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1205.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that it originates from a legitimate source (Panasas Inc) and the return path and reply-to addresses match the sender's domain. The URLs included in the email point to a known mailing list domain (redhat.com), which is a trusted source. The content of the email is technical in nature and appears to be a discussion among users of a mailing list, further supporting its legitimacy.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1208.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The headers indicate that the email originated from a legitimate mailing list with a consistent chain of trusted sources. The URLs present in the email point to a recognized domain associated with a mailing list service. The content appears to be a technical discussion relevant to the mailing list, lacking any suspicious requests or prompts typical of phishing attempts.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1209.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from a legitimate source, with consistent domain usage (DeepEddy.Com and virCIO.Com). The URLs in the content also point to these domains, which are trusted. The content of the email discusses a technical issue related to software, which aligns with the sender's identity. There are no clear signs of malicious intent or inconsistencies in the headers.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1210.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that it is part of a legitimate mailing list, originating from a recognized domain (mercea.net) and showing no signs of spoofing. The URLs point to trusted domains, and the content appears to be a technical discussion related to software issues, which aligns with the context of the mailing list. There are no clear indicators of phishing.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1211.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from a legitimate source, with consistent domain usage (DeepEddy.Com and virCIO.Com) and no signs of spoofing. The URLs provided in the email also point to these trusted domains. The content is technical in nature, discussing a software issue, which aligns with the context of the sender's domain. There are no clear indicators of phishing, such as suspicious links or requests for sensitive information.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1212.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from a legitimate source, with consistent domain usage (DeepEddy.Com and virCIO.Com). The URLs provided in the content also point to these domains, which are trusted. There are no signs of malicious intent or inconsistencies in the headers. The content is a technical discussion about a software issue, which aligns with the context of the sender's domain.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1213.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers show a legitimate sender (Chris Garrigues) and the domains (DeepEddy.Com, virCIO.Com) appear to be valid and consistent with the sender's identity. The URLs present in the email also lead to a legitimate mailing list domain (redhat.com). The content of the email is a technical discussion related to software, which aligns with the context of the sender and recipient. There are no clear signs of malicious intent or inconsistencies in the headers.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1214.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from a legitimate source, with consistent domain usage (DeepEddy.Com and virCIO.Com). The URLs included in the content also point to these domains, which are associated with the sender. There are no signs of spoofing or suspicious behavior in the headers. The content is a technical discussion, typical of internal communications, and does not exhibit common phishing traits such as urgency or requests for sensitive information.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1215.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from a legitimate source, specifically from a user associated with a known domain (loverso.southborough.ma.us). The return path and the message ID also align with this domain. The content of the email is a technical discussion regarding coding in a mailing list context, which is consistent with the headers. There are no suspicious URLs or signs of malicious intent present.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1218.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that the message originates from a known domain (DeepEddy.Com) and includes multiple legitimate servers in the delivery path. The URLs provided in the email also point to the same trusted domains. The content appears to be a technical discussion related to a bug report, which is consistent with the context of the headers. There are no clear signs of malicious intent or inconsistencies in the headers.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1219.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate it originates from a legitimate source, with a consistent return path and reply-to address matching the sender. The URLs provided in the content point to a known domain related to the topic discussed (exmh), and there are no signs of malicious intent in the content. The email appears to be a technical discussion regarding a software patch, which aligns with the sender's identity and context.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1223.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that the message originated from a legitimate source, with multiple internal servers involved in the delivery process. The 'From' address matches the domain of the sending server, and the 'Return-Path' and 'Reply-To' addresses are consistent with the mailing list context. The URLs present in the email point to a legitimate domain associated with a mailing list. The content of the email appears to be a technical discussion related to a software issue, which aligns with the context of the mailing list. Overall, there are no clear signs of phishing.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1230.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from a legitimate source, with consistent domain usage (DeepEddy.Com and virCIO.Com) and no signs of spoofing. The URLs included in the email also point to these trusted domains. The content of the email discusses a technical issue related to software bindings, which is consistent with the context of a development or support conversation. There are no clear indicators of phishing such as suspicious links or requests for sensitive information.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1231.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from a legitimate domain (DeepEddy.Com) and the URLs included in the content point to trusted sources associated with the sender. There are no signs of spoofing or malicious intent in the headers or URLs. The content is a typical email exchange discussing a technical idea, which aligns with the context of the sender's domain.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1234.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from a legitimate source (Valdis.Kletnieks@vt.edu) associated with Virginia Tech. The return path and received headers do not show any signs of spoofing or unusual activity. The content of the email is a technical discussion regarding software issues, which aligns with the sender's professional background. No URLs were present in the email to check, but the overall context and header validation support a classification of legitimate.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1242.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The headers appear to originate from a legitimate source, with the 'From' address matching the domain deepeddy.com, which is consistent with the content of the email. The URLs provided in the email also point to trusted domains (DeepEddy.Com and virCIO.Com). There are no signs of malicious intent or inconsistencies in the headers that would indicate phishing.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1243.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers show a valid chain of communication originating from a recognized domain (munnari.OZ.AU) and includes multiple legitimate mail servers. The URLs present in the email point to a known mailing list service (redhat.com) and do not exhibit any signs of malicious intent. The content appears to be a technical discussion regarding software features, which is consistent with the context of the mailing list. Overall, there are no clear indicators of phishing.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1244.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from a legitimate source, with consistent domain usage (DeepEddy.Com and virCIO.Com) and no signs of spoofing. The URLs included in the content also point to these trusted domains. The content itself is a technical discussion regarding software functionality, which aligns with the sender's identity. There are no suspicious indicators or inconsistencies that would classify this email as phishing.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1245.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from a legitimate source, with a consistent domain (redhat.com) associated with mailing lists. The URLs present in the email also point to a trusted domain (redhat.com). The content of the email is a technical discussion related to a mailing list, which aligns with the expected behavior of such communications. No clear indicators of phishing were found.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1246.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers show a consistent pattern of internal routing through known domains, and the sender's email matches the domain of the organization mentioned in the content. The URLs provided in the email point to legitimate domains associated with the sender. The content of the email appears to be a technical discussion related to software development, which aligns with the context of the sender's domain. There are no clear indicators of phishing, such as suspicious links or requests for sensitive information.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1249.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that it originates from a legitimate domain (mail.banirh.com), and the return path and reply-to addresses match the sender's domain. The URLs provided in the email also point to a known mailing list service (listman.redhat.com), which is a trusted source. The content of the email appears to be a technical discussion related to email signatures, which aligns with the context of the mailing list. There are no clear signs of phishing or malicious intent.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1250.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from legitimate sources related to the exmh mailing list, with a consistent return path and no signs of spoofing. The URLs present in the content point to a known mailing list service, which is also legitimate. The content itself discusses technical issues related to email handling, which aligns with the context of the mailing list. Overall, there are no clear indicators of phishing.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1252.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that it originates from a known domain (DeepEddy.Com) and the return path aligns with the sender's address. The URLs provided in the content also point to legitimate domains (DeepEddy.Com and virCIO.Com). There are no signs of malicious intent in the headers or URLs, and the content appears to be a casual conversation regarding a technical issue, which is consistent with the context of the headers.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1254.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that it originates from a known domain (DeepEddy.Com) and appears to be part of a legitimate conversation. The Return-Path and Reply-To headers also match the sender's address. The URLs point to the same domain as the sender's email, which is consistent with legitimate communication. The content reflects a technical discussion without any requests for sensitive information or suspicious links.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1257.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from a legitimate source, specifically from Brent Welch at Panasas, and the return path and reply-to addresses match the sender's domain. The URLs included in the email point to a known mailing list service (listman.redhat.com), which is a legitimate domain associated with Red Hat. The content of the email is a technical discussion related to GPG signatures, which aligns with the context of a mailing list. There are no clear indicators of phishing.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1262.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that it originates from a legitimate source, specifically from 'tatanka.stortek.com', which appears to be a valid domain associated with the sender. The URLs included in the email also point to trusted domains, such as 'listman.redhat.com' and 'ai.mit.edu'. The content of the email is technical in nature and discusses a specific issue related to email handling, which aligns with the context of the recipients being part of a mailing list. There are no clear signs of malicious intent or inconsistencies in the headers.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1264.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that it originates from a legitimate source (opal.eng.sun.com) and the return path matches the sender's domain. The URLs present in the email point to a known mailing list domain (redhat.com), which is trusted. The content of the email discusses technical issues related to email handling, which is consistent with a legitimate user discussion. There are no clear indicators of phishing or malicious intent.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1265.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that it originates from a legitimate source (crd.ge.com) associated with GE Corporate Research & Development. The Return-Path and Reply-To addresses match the From address, which is a good sign. The URLs present in the email point to a known mailing list domain (redhat.com), which is also legitimate. There are no suspicious indicators in the content that would suggest phishing.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1267.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The headers indicate that the email is coming from a legitimate source, specifically from a domain associated with a known mailing list. The Return-Path and Reply-To fields match the sender's address, and the email has a valid Message-ID. The content appears to be a technical discussion, which aligns with the context of the mailing list. There are no suspicious URLs present, and the X-Spam-Status indicates it is not flagged as spam. Overall, the email shows no clear signs of phishing.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1269.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The headers indicate that the email originates from a legitimate source (blu.org) and the return path aligns with the sender's address. There are no signs of spoofing or unusual routing. The content appears to be a technical discussion related to email handling, which is consistent with the sender's role as an Executive Director in a Linux organization. No URLs were present in the content that could lead to suspicious domains.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1301.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers show a legitimate sender (thomas@urgent.rug.ac.be) and the return path matches the sending domain. The URLs included in the email point to known domains associated with the sender and do not exhibit signs of malicious intent. The content is a technical discussion about Red Hat upgrades, which aligns with the context of the mailing list. There are no inconsistencies or suspicious elements that would indicate phishing.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1302.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from a legitimate source (eecs.berkeley.edu), and the Return-Path and Reply-To addresses match the sender's domain. The content of the email is technical in nature, discussing a tweak for a software package, which aligns with the context of the sender's domain. There are no suspicious URLs or indicators of malicious intent.",
+        "confidence_category": "High",
+        "user_feedback": "correct",
+        "base64_contents": [
+            {
+                "Content-Type": "video/mng",
+                "Charset": null,
+                "Content-Transfer-Encoding": "base64",
+                "Content-ID": null,
+                "Content-Disposition": "inline",
+                "name": "diffs",
+                "filename": "diffs",
+                "validate": "uncertain",
+                "processed": false,
+                "stored_file": "decoded_contents/L1302eml\\diffs"
+            }
+        ]
+    },
+    "L1334.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from a legitimate source, with consistent domains (freshrpms.net and horizonlive.com) and no signs of spoofing. The URLs included in the content point to a known repository associated with Red Hat Linux, which is a legitimate domain. The content of the email is a technical discussion about package management, which aligns with the context of the mailing list. There are no clear indicators of malicious intent.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1358.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from a legitimate mailing list associated with freshrpms.net, and the URLs present in the content lead to the same domain. The content of the email is a technical discussion regarding software issues, which aligns with the context of a mailing list. There are no suspicious indicators in the headers or URLs.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1372.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that it originates from a legitimate source (egwn.net) and the return path matches the sender's domain. The URLs present in the email point to a known mailing list domain (freshrpms.net), which is consistent with the context of the email. The content discusses technical topics related to ALSA and kernel building, which aligns with the expected discussions on a mailing list. There are no signs of malicious intent or inconsistencies in the headers.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1373.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from a legitimate source, specifically from a known mailing list (RPM-List) and the return-path matches the sender's domain. The URLs included in the email point to a domain that does not exhibit any known malicious activity. The content of the email is a technical discussion related to ALSA and sound configuration, which aligns with the context of the mailing list. There are no clear indicators of phishing or malicious intent.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1374.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that it originates from a known email service (bellsouth.net) and is part of a mailing list (freshrpms.net). The URLs included in the content point to a legitimate mailing list and a discussion thread related to Linux, which is consistent with the context of the email. There are no suspicious indicators in the headers or URLs that suggest malicious intent.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1381.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from a legitimate source, with consistent return paths and a coherent message ID. The URLs provided all point to the same domain (dudex.net), which is consistent throughout the email. The content discusses software themes relevant to a specific user group, further indicating that it is likely a legitimate communication rather than a phishing attempt.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1389.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from a legitimate source associated with RPMForge, a known repository for RPM packages. The URLs provided in the email point to the freshrpms.net domain, which is also associated with legitimate software packages. The content is technical and relevant to the audience, discussing ALSA sound drivers, which aligns with the context of the mailing list. There are no clear signs of malicious intent or phishing tactics.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1394.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from a legitimate source, with the 'From' address matching the domain of the reply-to and the mailing list. The URLs referenced in the content point to 'freshrpms.net', which is consistent with the sender's email domain. The content of the email is technical in nature, discussing issues with package management on a Linux system, which aligns with the context of the mailing list. There are no clear signs of malicious intent or inconsistencies in the headers.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1399.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The headers originate from a domain (dogma.slashnull.org) that appears to be legitimate, and the return path matches the sender's address. The URLs provided in the content lead to fringeware.com and nua.ie, which are also legitimate domains. There are no signs of malicious intent or suspicious activity in the headers or URLs. The content itself is a narrative about a historical figure, which aligns with the context of a blog post. Therefore, the email is classified as legitimate.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1406.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from a legitimate source, with no signs of spoofing or manipulation. The Return-Path and Received headers indicate a consistent flow of communication through trusted servers. The content is a technical discussion related to SpamAssassin, which aligns with the context of the email's subject and participants. There are no suspicious URLs present, and the email does not exhibit typical phishing characteristics.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1443.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that it originates from a legitimate educational institution (email.uah.edu), and the return path aligns with the mailing list domain (sourceforge.net). The URLs present in the email direct to known domains associated with the mailing list and a legitimate communication platform (jabber.com). There are no signs of malicious intent in the content, which is a technical inquiry related to software compilation. Therefore, the email is classified as legitimate.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1445.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from legitimate sources associated with the SpamAssassin mailing list. The Return-Path and recipient addresses align with known domains. The URLs included in the content point to a legitimate domain. The content itself discusses technical issues related to SpamAssassin, which is consistent with the context of a development mailing list. There are no clear signs of malicious intent or inconsistencies in the headers.",
+        "confidence_category": "High",
+        "user_feedback": "correct",
+        "base64_contents": [
+            {
+                "Content-Type": "application/x-pkcs7-signature",
+                "Charset": null,
+                "Content-Transfer-Encoding": "base64",
+                "Content-ID": null,
+                "Content-Disposition": "attachment",
+                "name": "smime.p7s",
+                "filename": "smime.p7s",
+                "validate": "uncertain",
+                "processed": false,
+                "stored_file": "decoded_contents/L1445eml\\smime.p7s"
+            }
+        ]
+    },
+    "L1452.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that it originates from a legitimate source (paradigm-omega.com) and is part of a mailing list discussion, which is consistent with the context of the content. The URLs present in the email also point to the same domain, which appears to be legitimate. There are no signs of malicious intent or inconsistencies in the headers that would suggest phishing.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1459.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that it originates from a legitimate source (info.uah.edu), which is associated with the University of Alabama in Huntsville. The Return-Path and Received headers show a consistent flow from trusted servers. The content of the email is a technical inquiry related to a compile error, which is typical for mailing lists. There are no suspicious URLs present, and the email does not exhibit common phishing characteristics such as urgency or requests for sensitive information.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1462.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from legitimate sources, specifically the domain nightrealms.com, which matches the sender's email address. The URLs included in the email point to recognized domains such as spamassassin.org and jabber.com, which are reputable. There are no clear signs of malicious intent or inconsistencies in the headers that would indicate phishing. The content discusses spam filtering and legal implications, which aligns with the context of the mailing list. Therefore, it is classified as legitimate.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1464.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers originate from a trusted source (sourceforge.net) and the URLs included in the email point to legitimate domains associated with the SourceForge project. The content of the email is a standard update from a CVS repository, which is typical for open-source project communications. There are no indicators of malicious intent or inconsistencies in the headers.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1468.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The headers indicate that the email originates from a recognized mailing list (Spamassassin-talk) and the sender's domain (radparker.com) appears legitimate. The URLs included in the content point to known domains, and there are no signs of malicious intent or spoofing. The content discusses spam and legal issues related to it, which aligns with the context of the mailing list.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1470.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate it originates from a known domain (nightrealms.com) and is part of a mailing list conversation. The URLs included in the email point to legitimate domains (spamassassin.org and jabber.com) associated with known services. There are no signs of malicious intent in the headers or URLs, and the content appears to be a discussion about spam filtering, which is consistent with the context of the mailing list.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1471.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that it originates from a known mailing list associated with SourceForge, and the sender's domain (dankohn.com) appears legitimate. The URLs included in the email point to trusted domains related to the content of the discussion. The content itself discusses spam and anti-spam measures, which aligns with the context of the mailing list. There are no clear signs of malicious intent or inconsistencies in the headers.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1476.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that it originates from a legitimate source (pathname.com) and is part of a known mailing list (Spamassassin-talk). The URLs included in the email also point to trusted domains (thinkgeek.com and lists.sourceforge.net). There are no signs of malicious intent in the content, which discusses spam and related topics. Overall, the email appears to be legitimate despite the somewhat informal nature of the conversation.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1505.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from a legitimate source, with consistent email addresses and a plausible return path. The URLs were not provided, but based on the context of the email, it seems to be a technical discussion rather than a solicitation or request for sensitive information. The content does not exhibit typical phishing traits such as urgency or requests for personal information.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1530.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that the message is a delivery status notification from a legitimate mail server (mx1.yipes.com) regarding a delayed message. The Return-Path and From addresses are consistent with typical mail server notifications. The content is a standard warning message about mail delivery, which aligns with the headers. No suspicious URLs were present, and the domain mentioned (tgsnopec.com) appears to be a valid domain. Overall, the indicators suggest this email is legitimate.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1531.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from legitimate sources, including a recognized mailing list (spamassassin-talk@lists.sourceforge.net) and a known domain (sourceforge.net). The URLs included in the email point to a legitimate domain (inphonic.com), which is consistent with a marketing campaign. There are no clear indicators of malicious intent in the content or headers.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1534.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The headers appear to originate from a legitimate source, specifically from example.com and associated with the Spamassassin mailing list. The URLs present in the email point to trusted domains, including a legitimate mailing list and a known service. The content discusses technical aspects of email headers and spam detection, which aligns with the context of the mailing list. There are no clear indicators of phishing or malicious intent.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1544.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The headers appear to originate from legitimate sources associated with the SpamAssassin mailing list. The URLs included in the email lead to trusted domains, specifically the SourceForge and Inphonic domains, which are not known for phishing. The content of the email discusses a technical topic related to email headers and does not contain any suspicious requests or prompts typical of phishing attempts.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1551.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The headers appear to originate from legitimate sources, with no signs of forgery or suspicious activity. The URLs included in the email point to known domains associated with the SpamAssassin mailing list and other legitimate sources. The content discusses spam management strategies, which aligns with the context of the mailing list. Overall, there are no clear indicators of phishing.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1561.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from a legitimate source, with consistent domain usage (cwie.net and sourceforge.net) and no signs of spoofing. The URLs included in the email point to known domains related to the mailing list and a legitimate sponsor (ThinkGeek). The content of the email is a technical discussion relevant to the SpamAssassin mailing list, which aligns with the context of the headers and sender. Overall, there are no clear indicators of phishing.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1562.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from a legitimate source related to the Spamassassin mailing list, and there are no signs of spoofing or malicious intent. The URLs included (e.g., grisoft.com) point to a well-known antivirus provider. The content discusses technical details about Spamassassin and Pyzor, which is consistent with a legitimate user inquiry. Overall, the indicators suggest this email is not phishing.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1563.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from a legitimate source, with no signs of spoofing or suspicious activity. The sender's domain (kluge.net) is consistent throughout the headers. The content of the email is a discussion about spam management, which aligns with the recipient's mailing list. There are no URLs present that lead to untrusted domains, and the email does not exhibit typical phishing characteristics such as urgent requests for personal information or suspicious attachments.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1567.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from a legitimate source, with a consistent return path and no signs of spoofing. The message content discusses technical details about DNS MX records, which aligns with the subject and context of the conversation. There are no suspicious URLs present to indicate phishing.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1570.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that it originates from a known domain (kluge.net) and appears to be part of a legitimate discussion on a mailing list (Spamassassin-talk). The absence of suspicious or misleading information in the headers, along with the lack of any malicious URLs, supports the conclusion that this email is not a phishing attempt. The content is a technical discussion that aligns with the context of the mailing list.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1585.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from a legitimate source, specifically from an academic institution (Sheffield Hallam University). The 'From' address matches the domain of the university, and the 'Received' headers indicate a consistent path through trusted servers. There are no suspicious URLs present in the content, and the message discusses a technical issue related to spam detection, which aligns with the context of the mailing list. Overall, there are no clear indicators of phishing.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1597.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that it originates from a legitimate source (apexvoice.com) and is part of a mailing list discussion related to SpamAssassin. The URLs included in the email point to thinkgeek.com, which is a known and trusted domain. There are no signs of malicious intent in the headers or URLs, and the content is consistent with a technical discussion. Therefore, the email is classified as legitimate.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1608.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that it originates from a legitimate source associated with SourceForge, a well-known platform for open-source projects. The URLs included in the email point to trusted domains related to SourceForge and SpamAssassin. The content of the email appears to be a routine update regarding code changes, which is consistent with the typical communication from a development mailing list. There are no clear indicators of phishing, and the overall context suggests it is a legitimate message.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1611.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate it originates from a legitimate source associated with SourceForge, and the URLs point to trusted domains related to the SpamAssassin project. There are no signs of malicious intent in the headers or URLs, and the content appears to be a standard update from a version control system, which is typical for project mailing lists.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1616.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that it originates from a legitimate source associated with the SpamAssassin development mailing list. The URLs included in the email point to the hughes-family.org domain, which matches the sender's domain and appears to be legitimate. The content is technical in nature and relates to a bug report, which is consistent with a development mailing list. There are no clear signs of phishing or malicious intent.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1623.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that it originates from a legitimate mailing list associated with Spamassassin, and the URLs point to a domain (hughes-family.org) that appears to be consistent with the sender's identity. The content is technical and relevant to the mailing list topic, which supports its legitimacy. There are no clear indicators of phishing.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1625.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The headers indicate that the email originates from a legitimate source associated with the SpamAssassin development mailing list. The URLs included point to trusted domains (hughes-family.org and thinkgeek.com), which are known and do not exhibit signs of malicious intent. The content of the email is consistent with a bug report, typical for development discussions, and does not contain any suspicious elements.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1635.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from legitimate sources associated with the SpamAssassin mailing list, and the return path matches the mailing list domain. The URLs included in the email point to known and trusted domains (sourceforge.net and thinkgeek.com). The content is a discussion among users regarding technical aspects of SpamAssassin and Habeas, which is consistent with the context of a mailing list. There are no clear indicators of phishing.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1641.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from a legitimate source (jpci.net), and the return path matches the sender's domain. The URLs included in the content point to a known domain (groovymother.com), which does not exhibit signs of malicious intent. The content itself is a delivery status notification, which is consistent with the subject line. Overall, while there are indicators of a legitimate email, the confidence level is not absolute due to the age of the email and potential changes in domain reputation over time.",
+        "confidence_category": "High",
+        "user_feedback": "correct",
+        "base64_contents": [
+            {
+                "Content-Type": "application/x-pkcs7-signature",
+                "Charset": null,
+                "Content-Transfer-Encoding": "base64",
+                "Content-ID": null,
+                "Content-Disposition": "attachment",
+                "name": "smime.p7s",
+                "filename": "smime.p7s",
+                "validate": "uncertain",
+                "processed": false,
+                "stored_file": "decoded_contents/L1641eml\\smime.p7s"
+            }
+        ]
+    },
+    "L1651.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that it originates from a mailing list associated with SourceForge, which is a legitimate platform. The URLs present in the email point to domains that are consistent with SourceForge and its associated services. There are no signs of malicious intent in the content, which appears to be a technical discussion among users. Therefore, the email is classified as legitimate.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1653.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers show a legitimate sender and recipient with no signs of spoofing. The URLs point to the domain 'execsoft.com', which is consistent with the sender's identity. The content appears to be a marketing message for a legitimate software product, and there are no clear indicators of malicious intent.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1658.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from legitimate sources, with consistent domain usage (pbp.net and sourceforge.net). The URLs point to trusted domains associated with SourceForge, which is a known platform for software development. The content of the email is a discussion among users about spam filtering techniques, which aligns with the context of the mailing list. There are no clear signs of malicious intent or inconsistencies in the headers.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1660.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The headers indicate that the email originates from a legitimate domain (lelandwoodbury.com) and includes multiple valid received paths consistent with normal email routing. The URLs provided in the email point to a known source (inphonic.com) and a mailing list on sourceforge.net, both of which are recognized and trusted domains. The content appears to be a technical discussion regarding software usage, which aligns with the context of the email headers. There are no clear indicators of phishing.",
+        "confidence_category": "High",
+        "user_feedback": "correct",
+        "base64_contents": [
+            {
+                "Content-Type": "application/x-java-applet",
+                "Charset": null,
+                "Content-Transfer-Encoding": "base64",
+                "Content-ID": null,
+                "Content-Disposition": "inline",
+                "name": "rotate",
+                "filename": "rotate",
+                "validate": "uncertain",
+                "processed": false,
+                "stored_file": "decoded_contents/L1660eml\\rotate"
+            }
+        ]
+    },
+    "L1666.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from a legitimate source related to the Razor users mailing list. The URLs included in the email lead to known domains associated with SourceForge and a legitimate promotional link. There are no clear signs of malicious intent or inconsistencies in the headers that would indicate phishing.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1669.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that it originates from a legitimate source (sri.com) and is part of a mailing list related to Razor users. The URLs included in the email point to trusted domains associated with SourceForge and a legitimate promotional offer. There are no clear signs of malicious intent, and the content is relevant to the discussion of software integration, which aligns with the context of the mailing list.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1670.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers show a consistent chain of legitimate sources, primarily from the sourceforge.net domain, which is a trusted platform. The URLs are not provided, but the content does not exhibit typical phishing characteristics such as urgent requests for personal information or suspicious links. The email appears to be a legitimate inquiry about technical issues related to spamassassin and razor2, which aligns with the context of a mailing list discussion.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1676.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers show a legitimate source with consistent domain usage (jedi.net and sourceforge.net), and the URLs point to known domains associated with SourceForge. The content appears to be a technical discussion related to procmail and spam filtering, which aligns with the context of the mailing list. There are no clear signs of malicious intent or inconsistencies in the headers.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1684.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The headers indicate that the email originated from a legitimate source associated with a mailing list (razor-users@lists.sourceforge.net) and the Return-Path aligns with this. The URLs present in the email (expita.com and thinkgeek.com) are known and trusted domains. There are no suspicious indicators in the headers or URLs that would suggest phishing. The content appears to be a technical discussion related to spam detection, which is consistent with the context of the mailing list.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1691.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that it originates from a legitimate source (prolix.com) and is part of a mailing list discussion related to spam filtering. The URLs, while not explicitly listed, appear to be consistent with the context of the email. The content discusses technical aspects of spam filtering, which aligns with the subject matter of the mailing list. There are no clear indicators of malicious intent or phishing attempts.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1696.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that it originates from a legitimate mailing list associated with SourceForge, and the reply-to address matches the sender's address. The URLs included in the email point to thinkgeek.com and lists.sourceforge.net, both of which are recognized and trusted domains. The content of the email discusses technical aspects of using spam filtering tools, which aligns with the context of a user mailing list. There are no clear signs of malicious intent.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1705.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from a legitimate source, with the 'From' address matching the domain of the content. The URLs included in the email point to known domains associated with the mailing list and a reputable website (thinkgeek.com). There are no signs of malicious intent in the headers or URLs, and the content is consistent with a technical discussion. Therefore, it is classified as legitimate.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1709.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The headers appear to originate from a legitimate mailing list, with a consistent return path and no signs of spoofing. The URLs present in the email point to a trusted domain (sourceforge.net) associated with the mailing list. The content discusses technical issues relevant to the mailing list's focus, which aligns with expected communication. Overall, there are no clear indicators of phishing.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1710.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The headers indicate that the email originated from a legitimate source, with a consistent return path and a valid message ID. The URLs in the email point to trusted domains associated with InterNAP, and there are no signs of malicious intent. The content appears to be a legitimate notification regarding network issues, which aligns with the context of the headers and sender information.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1716.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from legitimate sources, specifically from the sourceforge.net domain, which is a trusted platform. The URLs included in the email also point to known and reputable domains (e.g., thinkgeek.com, sourceforge.net). There are no signs of malicious intent in the content, which discusses technical aspects of spam filtering. Overall, the email seems to be a legitimate discussion among users of the Razor software.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1719.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from a legitimate source, specifically from the domain 'icon-nicholson.com', which matches the sender's email address. The received headers indicate that the email was processed by known servers associated with 'securityfocus.com', a reputable domain. The URL provided in the email points to the official VMware website, which is a trusted source. The content of the email discusses technical concepts related to virtual machines and security, which aligns with the context of a professional discussion. No clear signs of phishing were found in the headers or URLs.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1721.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from a legitimate source, specifically from a known domain (firstusa.com) associated with a reputable organization. The URLs provided in the email point to a legitimate VMware support page. The content of the email discusses technical concepts related to virtual machine operations and does not exhibit typical phishing characteristics such as urgency, requests for personal information, or suspicious attachments. Overall, there are no clear indicators of phishing.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1725.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that it originated from a legitimate source, as the 'From' and 'Reply-To' addresses match and appear to belong to a known institution (Dine' College). The Received headers show a valid chain of email servers, and there are no signs of spoofing or unusual routing. The content of the email is a technical discussion related to software recovery, which aligns with the context of the sender's role. No URLs were present to check for malicious intent, and the overall structure and tone of the email appear professional and relevant.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1727.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate it originates from a legitimate domain (wirex.com) and the return path aligns with the sender's address. The URLs provided in the content point to known domains related to the sender's organization. There are no signs of spoofing or malicious intent in the headers or URLs, and the content appears to be a technical discussion relevant to the sender and recipient.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1728.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The headers indicate that the email originated from a legitimate source (icon-nicholson.com) and the return path aligns with a known security mailing list (securityfocus.com). There are no suspicious URLs present in the email content. The conversation appears to be a technical discussion related to automated recovery from attacks, which is consistent with the sender's domain. Overall, there are no clear indicators of phishing.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1732.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from a legitimate source, with the 'From' address matching the domain of the organization (iscubed.com). The 'Return-Path' and 'Received' headers also indicate proper routing through known servers. No suspicious URLs were present, and the content is a technical discussion regarding cryptography, which aligns with the sender's role as a director in software development. Overall, there are no clear indicators of phishing.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1816.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that it originates from a legitimate source (guido@python.org), and the return path matches the sender. The URLs in the content are not present, but the email does not contain any suspicious links. The content appears to be a discussion about spam detection and hotel information, which aligns with the sender's known interests. There are no clear indicators of phishing, and the context suggests a legitimate conversation.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1818.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that it originates from a legitimate source (tim.one@comcast.net) with consistent return paths and message IDs. The content appears to be a technical discussion related to programming and spam detection, which aligns with the sender's email address. There are no suspicious URLs present, and the content does not exhibit typical phishing characteristics. Therefore, it is classified as legitimate.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L1853.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from legitimate sources, specifically from a recognized domain (comcast.net) and contain standard email formatting. The URLs provided in the content lead to a known and legitimate domain (standardlife.com). The content discusses training courses related to Python, which aligns with the context of the email list. There are no clear signs of malicious intent or inconsistencies in the headers.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L2040.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from a legitimate source, with consistent return paths and no signs of spoofing. The URLs included in the email point to known domains associated with the sender, and there are no indications of malicious intent. The content is consistent with a discussion about a software product, which aligns with the sender's identity. Overall, while there is a slight uncertainty due to the age of the email, the indicators lean towards it being legitimate.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L2304.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from a legitimate source (rssfeeds@example.com) and there are no signs of spoofing. The main URL and all links point to trusted domains, primarily diveintomark.org and google.com. The content discusses changes in Google's algorithms and does not exhibit typical phishing characteristics such as requests for personal information or urgency. Therefore, it is classified as legitimate.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L2349.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from a legitimate source (rssfeeds@example.com) and there are no signs of spoofing or manipulation. The URLs provided in the content point to domains that are consistent with the sender's identity and do not lead to any known malicious sites. The content itself is a coherent discussion about the history of the tilde, which aligns with the context of the sender's profile. Overall, while there is a high confidence level in the legitimacy of this email, the somewhat unusual nature of the content contributes to a slight uncertainty.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L2459.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers appear to originate from a legitimate source (rssfeeds@example.com) and do not show signs of spoofing or manipulation. The URLs included in the email point to known domains related to the content discussed, primarily focusing on productivity tips for Windows users. There are no clear indicators of malicious intent or phishing tactics present in the content.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L2497.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that it originates from a legitimate source (rssfeeds@example.com) and there are no signs of spoofing or manipulation. The URLs included in the email point to known domains (diveintomark.org and shirky.com), which are associated with legitimate content. The content itself appears to be a thoughtful article discussing RSS formats, lacking any urgent calls to action or requests for sensitive information, which are common in phishing attempts.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    },
+    "L2518.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The headers indicate that the email is from a known source (joelonsoftware) and the return path matches the sender. The URLs provided in the email point to legitimate domains associated with Joel Spolsky and Fog Creek Software. There are no signs of malicious intent in the headers or URLs, and the content appears to be a legitimate discussion about software setup, which aligns with the sender's known topics.",
+        "confidence_category": "High",
+        "user_feedback": "correct"
+    }
+}

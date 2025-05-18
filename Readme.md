@@ -4,6 +4,12 @@ The application analyzes all parts of an email to detect phishing indicators, cl
 
 Leveraging LLMs for phishing email detection offers a more effective approach than traditional ML algorithms, which rely on manually engineered features.
 
+The app decodes every component of the email, including the headers and all base64-encoded MIME binary attachments in order to analyze them individually and classify the email accurately.
+
+![The simple user interface](/Picture1.png "User interface")
+![Correctly classified Phishing email](/Picture2.png "phishing email")
+![Correctly classified Legitimate email](/Picture3.png "legitimate email")
+
 ## To run application
 
 1. Open command prompt or terminal

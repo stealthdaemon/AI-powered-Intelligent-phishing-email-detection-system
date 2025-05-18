@@ -6,8 +6,6 @@ The application analyzes all parts of an email to detect phishing indicators, cl
 
 Leveraging LLMs for phishing email detection offers a more effective approach than traditional ML algorithms, which rely on manually engineered features.
 
-![Correctly classified Phishing email](/Picture2.png "phishing email")
-
 The app decodes every component of the email, including the headers and all base64-encoded MIME binary attachments in order to analyze them individually and classify the email accurately.
 
 ![Correctly classified Legitimate email](/Picture3.png "legitimate email")
@@ -19,6 +17,10 @@ The app decodes every component of the email, including the headers and all base
 3. Start the server - Run the following command `python manage.py runserver`
 4. Open browser and type the link - should be _127.0.0.1:8000/detect_
 5. Download any email in _.eml_ or _.txt_ format and test the application
+
+## For OCR
+Install tesseract and set the path for OCR in process_email.py in the decode_image function
+`pytesseract.pytesseract.tesseract_cmd = r'your-installation-path'`
 
 ## OpenAI API KEY
 

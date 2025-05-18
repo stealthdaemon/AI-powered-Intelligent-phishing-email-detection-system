@@ -4,7 +4,7 @@ import os
 from . import process_email
 import shutil
 
-OPENAI_API_KEY = "your_OpenAI_API_key"
+OPENAI_API_KEY = "your-openai-api-key"
 client = OpenAI(api_key=OPENAI_API_KEY)
 
 

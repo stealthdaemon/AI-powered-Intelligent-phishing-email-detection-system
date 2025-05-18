@@ -5,5 +5,62 @@
         "reasoning": "The email headers indicate that the message originates from a legitimate Primark domain, with DKIM, SPF, and DMARC authentication checks all passing successfully. The sending server IP address is consistent with a known Primark mail server. Additionally, the URLs in the email point to a subdomain of mail.primark.com, which is a legitimate domain associated with Primark's email communications. There are no signs of domain spoofing or suspicious links, suggesting that this email is not a phishing attempt.",
         "confidence_category": "High",
         "user_feedback": "none"
+    },
+    "legit.eml": {
+        "is_phishing": false,
+        "confidence": 90,
+        "reasoning": "The email headers indicate that the message was sent from a legitimate GTBank domain, with SPF, DKIM, and DMARC authentication checks passing successfully. The email originates from a server associated with gtbank.com, and the return path is consistent with the sending domain. There are no suspicious links or requests for sensitive information beyond the password for the attachment, which is a common practice for secure document delivery. The phone numbers provided for contact are consistent with those publicly listed for GTBank. Therefore, the email appears to be legitimate.",
+        "confidence_category": "High",
+        "user_feedback": "none",
+        "base64_contents": [
+            {
+                "Content-Type": "text/html",
+                "Charset": "utf-8",
+                "Content-Transfer-Encoding": "base64",
+                "Content-ID": null,
+                "Content-Disposition": null,
+                "name": null,
+                "filename": null,
+                "validate": "valid",
+                "processed": true
+            },
+            {
+                "Content-Type": "image/gif",
+                "Charset": null,
+                "Content-Transfer-Encoding": "base64",
+                "Content-ID": "<gtblogo>",
+                "Content-Disposition": null,
+                "name": null,
+                "filename": null,
+                "validate": "valid",
+                "processed": true,
+                "stored_file": "./detect/decoded_contents/legiteml\\image.gif"
+            },
+            {
+                "Content-Type": "image/png",
+                "Charset": null,
+                "Content-Transfer-Encoding": "base64",
+                "Content-ID": "<advert>",
+                "Content-Disposition": null,
+                "name": null,
+                "filename": null,
+                "validate": "valid",
+                "processed": true,
+                "stored_file": "./detect/decoded_contents/legiteml\\image.png"
+            },
+            {
+                "Content-Type": "application/pdf",
+                "Charset": null,
+                "Content-Transfer-Encoding": "base64",
+                "Content-ID": null,
+                "Content-Disposition": "attachment",
+                "name": "AC_ROBINSON VICTOR GABRIEL_MARCH, 2025_509R020709383_FullStmt.pdf",
+                "filename": "AC_ROBINSON VICTOR GABRIEL_MARCH, 2025_509R020709383_FullStmt.pdf",
+                "validate": "valid",
+                "processed": false,
+                "stored_file": "./detect/decoded_contents/legiteml\\AC_ROBINSON VICTOR GABRIEL_MARCH, 2025_509R020709383_FullStmt.pdf",
+                "encrypted": true
+            }
+        ]
     }
 }
